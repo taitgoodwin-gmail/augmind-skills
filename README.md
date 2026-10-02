@@ -8,6 +8,8 @@ The cross-project execution method lives at `chatgpt-codex/augmind-delivery-base
 
 Use it for substantial product, software, AI, website, workflow, or transformation delivery work. It defines eight gates — Frame → Context → Prompt → Plan → Build → Verify → Review → Ship & Learn — plus tool, subagent, worktree, verification, and source-of-truth rules.
 
+For the plain-English operator companion, use [Software Development with ChatGPT Codex for Dummies](chatgpt-codex/software-development-with-chatgpt-codex-for-dummies.md). It is a working document that translates the formal baseline into day-to-day tool ownership, sequencing, acceptance, and delivery practices.
+
 Project repositories should keep only their project-specific overlay in `AGENTS.md`; do not duplicate the full baseline into every repo.
 
 ## Official guidance source index
