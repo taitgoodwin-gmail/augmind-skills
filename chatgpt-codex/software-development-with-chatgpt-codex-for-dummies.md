@@ -268,6 +268,54 @@ Bring the owner only decisions that materially change:
 
 Everything else should be prepared, verified, and presented with a recommendation and evidence.
 
+## Newer OpenAI capabilities — use the right one, don’t use all of them
+
+These capabilities can materially improve delivery, but they are **tools, not process stages**. Availability can vary by plan, workspace, rollout, region, and surface; verify current access before designing the workflow around one.
+
+### Model and reasoning-effort choice
+- Use faster/default effort for routine retrieval, formatting, small edits and well-bounded changes.
+- Use stronger reasoning for architecture, requirements reconciliation, difficult debugging, security review, cross-system planning and consequential decisions.
+- Switch because the task needs it, not because “more thinking” is automatically better.
+- Record a model/effort assumption only when it materially affects reproducibility, quality, time or cost.
+
+### ChatGPT Work
+Use Work for substantial multi-step work that benefits from persistent execution across files/apps/browser tasks. It is closer to handing off a body of work than asking one question.
+
+Do not confuse Work with ordinary chat: a normal chat response ends when the turn ends unless an explicit ongoing/scheduled capability is running.
+
+### Codex cloud environments
+Use a reusable cloud environment when coding work needs an isolated, repeatable environment that can be resumed across devices or sessions. Keep environment setup explicit enough that another developer or agent can reproduce it.
+
+### Subagents
+Use subagents for genuinely independent specialist work: e.g. security review, UX review, architecture exploration, or parallel codebase investigation.
+
+The lead agent remains responsible for reconciliation. Five agents disagreeing does not equal a decision.
+
+### Git worktrees
+Use worktrees when multiple coding streams should progress without colliding in one working directory. Give each stream a bounded ownership area and reconcile through Git/review.
+
+### Code review
+Treat Codex/GitHub review as a separate gate after build/verification. Review should look for correctness, regressions, security, maintainability and requirement mismatch—not merely restate that tests passed.
+
+### Dots / ongoing agents
+Use an ongoing agent only for a responsibility that truly needs repeated autonomous work. Do not turn every project into a persistent agent.
+
+### Plugins and MCP
+Use connected tools when they provide authoritative context or a needed action: Linear for work state, GitHub for code/review, Figma for design, Vercel for deployment, etc.
+
+Before adding a tool:
+1. Does it give context/action we cannot reliably get already?
+2. Does it reduce errors, time or owner effort?
+3. Can its result be reconciled into the source of truth?
+4. Are its permissions/authority clear?
+
+### Official-doc refresh
+For changing OpenAI behavior, commands, models or access:
+- check current official guidance;
+- prefer the current linked docs over an older newsletter/screenshot/chat memory;
+- use Docs MCP when available for current guidance inside Codex;
+- do not claim a feature is active merely because it exists in documentation.
+
 ## Step 15 — Continuous improvement without process bloat
 
 After meaningful work, ask:
