@@ -226,6 +226,17 @@ For important repositories, follow current GitHub guidance proportionately:
 
 A repository rule is a **delivery control**, not automatically a product requirement.
 
+### CI reality check — learned on MindLeverX
+
+Do not copy a generic CI recipe and assume it is correct.
+
+- CI must reproduce the **real project prerequisites**, not generic ecosystem habits. MindLeverX intentionally had no npm lockfile/runtime install step, so `npm ci` was the wrong assumption.
+- Tests that depend on a separate runtime must install that runtime explicitly. MindLeverX PDF tests needed the pinned Python `reportlab` requirement in CI.
+- A failing CI setup is not evidence that the product is broken until the failure is classified. Fix the environment/setup gap first when that is the cause.
+- GitHub Dependency Review requires Dependency Graph to be enabled for the repository. Do not install a permanently failing “security check” and call that good governance.
+- After a CI change passes on a PR, verify the **post-merge push to main** also passes.
+- Only make a check “required” after it has actually run successfully and is appropriate for the repo.
+
 ## Step 12 — Ship, then verify the release
 
 Before calling something shipped:
