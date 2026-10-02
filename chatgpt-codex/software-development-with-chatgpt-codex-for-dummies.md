@@ -302,6 +302,10 @@ Use subagents for genuinely independent specialist work: e.g. security review, U
 
 The lead agent remains responsible for reconciliation. Five agents disagreeing does not equal a decision.
 
+**Delegation reality check learned on MindLeverX:** a tool can expose an “agent” or delegate field without the workspace actually being configured to run coding sessions. Before promising independent agent work, test that the agent runtime is enabled and has the repository/tool access the task needs. On 2 October 2026, Linear agent delegation was blocked because coding sessions with GitHub code access were not enabled. We recorded the review as queued rather than pretending it ran.
+
+Independence must be real: CI is an independent mechanical check, but it is not an independent product/security judgment; a second pass by the same coordinator is useful review, but it is not an independent reviewer.
+
 ### Git worktrees
 Use worktrees when multiple coding streams should progress without colliding in one working directory. Give each stream a bounded ownership area and reconcile through Git/review.
 
