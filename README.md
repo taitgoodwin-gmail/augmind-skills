@@ -2,6 +2,14 @@
 
 AugMind skill packages and installation guides, organized separately for Claude and ChatGPT/Codex.
 
+## Reusable delivery baseline
+
+The cross-project execution method lives at `chatgpt-codex/augmind-delivery-baseline/SKILL.md`.
+
+Use it for substantial product, software, AI, website, workflow, or transformation delivery work. It defines eight gates — Frame → Context → Prompt → Plan → Build → Verify → Review → Ship & Learn — plus tool, subagent, worktree, verification, and source-of-truth rules.
+
+Project repositories should keep only their project-specific overlay in `AGENTS.md`; do not duplicate the full baseline into every repo.
+
 ## Official guidance source index
 
 Use current primary documentation before changing a reusable workflow. Record the date checked, preserve the canonical URL, and prefer the current docs over newsletter wording when they differ.
