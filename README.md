@@ -32,10 +32,11 @@ Use current primary documentation before changing a reusable workflow. Record th
 | Subagents | https://learn.chatgpt.com/docs/agent-configuration/subagents | Parallelize independent work; avoid unnecessary write conflicts and token overhead. |
 | Codex CLI | https://learn.chatgpt.com/docs/codex/cli | Install, run, resume, review, and automate Codex locally. |
 | Developer commands | https://learn.chatgpt.com/docs/developer-commands | Current slash-command reference, including /plan, /goal, /worktree, /review, /agent and /subagents. |
-| Git worktrees | https://learn.chatgpt.com/docs/environments/git-worktrees | Run parallel Codex chats without colliding in the same working tree. |
-| Cloud environments | https://learn.chatgpt.com/docs/environments/cloud-environments | Reusable isolated Codex Cloud environments across desktop, web, and mobile. |
 | GitHub code review | https://learn.chatgpt.com/docs/third-party/github | Review PRs, enable automatic reviews, and use AGENTS.md review rules. |
-| Agent approvals & security | https://learn.chatgpt.com/docs/agent-approvals-security | Sandboxing, approvals, network controls, and secure local execution. |
+| Agent approvals & security | https://learn.chatgpt.com/docs/agent-approvals-security | Sandboxing, approvals, network controls, and secure local/cloud execution boundaries. |
+| Permission modes/profiles | https://learn.chatgpt.com/docs/permission-modes | Choose least-privilege filesystem/network/approval boundaries for autonomous local work. |
+| Cloud environments | https://learn.chatgpt.com/docs/environments/cloud-environments | Publish and test reusable isolated environments before unattended cloud coding. |
+| Git worktrees | https://learn.chatgpt.com/docs/environments/git-worktrees | Isolate parallel and scheduled Git work so writers do not collide. |
 | Docs MCP | https://learn.chatgpt.com/learn/docs-mcp | Connect Codex to OpenAI's current official docs so guidance can be refreshed during work. |
 | ChatGPT Voice | https://learn.chatgpt.com/docs/features/voice | Talk through and steer Chat, Work, and Codex tasks. |
 
