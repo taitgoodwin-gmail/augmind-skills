@@ -343,6 +343,33 @@ After meaningful work, ask:
 
 Only generalize a lesson into AGENTS.md or a shared skill after it has proven reusable. Avoid turning every one-off correction into permanent process.
 
+## Autopilot mode — how to automate without losing control
+
+When work is scheduled, delegated, or expected to advance without continuous owner steering, use the formal autonomy contract in the AugMind Delivery Baseline. The short version:
+
+- **One durable work key** per autonomous task, normally the Linear issue ID.
+- **One active writer per work key.** A new run reuses the existing branch/PR/evidence rather than creating a competing stream.
+- **Two write-heavy streams per repository by default.** Read-heavy QA/review can parallelize more freely.
+- **Every writer is isolated** in its own worktree or cloud workspace.
+- **Retry transient failures only twice.** Repeated deterministic or permission failures become BLOCKED; no endless repair loops.
+- **Classify failures before fixing them:** environment, implementation, requirement, external dependency, permission/configuration, or owner decision.
+- **Use the state ladder:** READY → CLAIMED → BUILDING → VERIFIED → REVIEWED → PREVIEW VERIFIED → PRODUCTION VERIFIED → ACCEPTED.
+- **Hard gates beat prompts:** protected main, required CI, review, environment validation, deployment identity, and recovery checks should prevent bypass.
+- **Normal autonomous work stops at PR/preview** unless merge/release authority is explicit and the repository/release gates are active.
+- **A scheduled task does not inherit authority** to spend, contact customers, change product scope, weaken security/privacy, or perform destructive production changes.
+
+### What should happen automatically
+
+Inside accepted scope, the system should be able to reconcile state, claim ready work, create isolated branches/worktrees, implement bounded reversible changes, run tests/builds, open PRs, update Linear/evidence, verify previews, and diagnose ordinary CI/test failures.
+
+### What should interrupt the owner
+
+Interrupt only for material scope/customer-promise changes, pricing/commercial terms, meaningful design alternatives, spend, external communication, privacy/security policy, destructive data changes without verified recovery, or irreversible/high-risk architecture choices.
+
+### When the automation should stop itself
+
+Stop the affected action when the same material blocker survives two scheduled runs, when a required independent reviewer cannot run, when the task would need broader permissions than its role, or when the system cannot prove the state transition it is trying to claim. Continue unrelated safe work instead of stopping the whole project.
+
 ## The tool ownership map
 
 | Tool | Primary job | Do not use it as |

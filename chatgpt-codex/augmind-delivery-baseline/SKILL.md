@@ -1,6 +1,6 @@
 ---
 name: augmind-delivery-baseline
-description: Use for substantial product, software, AI, website, workflow, or transformation delivery work that should follow AugMind's repeatable governed lifecycle across projects. Establishes the current delivery gate, prompt structure, planning, build, verification, review, deployment, learning, tool use, subagent/worktree rules, and source-of-truth discipline. Do not use for trivial one-step requests.
+description: Use for substantial product, software, AI, website, workflow, or transformation delivery work that should follow AugMind's repeatable governed lifecycle across projects. Establishes delivery gates, source-of-truth rules, safe autonomy levels, task claiming/idempotency, concurrency, retries/circuit breakers, subagents/worktrees/cloud environments, verification, review, release controls, and evidence-based completion. Do not use for trivial one-step requests.
 ---
 
 # AugMind Delivery Baseline
@@ -196,6 +196,165 @@ Before adding a tool or agent, ask:
 4. Is its authority boundary clear?
 
 If not, keep the workflow simpler.
+
+## Autonomous delivery control
+
+Use this section whenever work is unattended, scheduled, delegated, parallelized, or expected to advance without continuous owner steering. Autonomy is an execution mode inside the eight gates, not a ninth gate.
+
+### Autonomy levels
+
+Use the lowest level that can accomplish the task:
+
+- **OBSERVE** — read, reconcile, diagnose, and report. No persistent writes.
+- **PREPARE** — update planning/evidence systems, create bounded branches/worktrees, prepare commits/PRs/previews, but do not merge or release.
+- **EXECUTE** — make reversible implementation changes that are already authorized by accepted requirements/design and remain behind PR/review/release gates.
+- **RELEASE** — merge, deploy, migrate, publish, or perform other externally consequential actions only when that authority is explicit and the hard release gates are active.
+
+A scheduled task or agent does not gain authority merely because it can technically perform an action.
+
+### Task state machine
+
+For consequential software work, track the highest verified state rather than inferring completion from workflow status:
+
+**READY → CLAIMED → BUILDING → VERIFIED → REVIEWED → PREVIEW VERIFIED → PRODUCTION VERIFIED → ACCEPTED**
+
+Side states:
+
+- **BLOCKED** — a prerequisite, dependency, access, or decision is unavailable.
+- **FAILED** — the attempted change or verification produced a reproducible failure.
+- **OWNER DECISION** — proceeding would materially change scope, promise, design direction, spend, privacy/security policy, external communication, or an irreversible/high-risk architecture choice.
+
+Rules:
+- Do not skip a state whose evidence is required for the next state.
+- NOT RUN is never PASS.
+- BLOCKED is not FAILED.
+- Linear/GitHub workflow labels do not override the acceptance state.
+- CI success is mechanical verification, not independent product/business acceptance.
+
+### Task claiming and idempotency
+
+Every autonomous write task needs one durable work key, normally the issue identifier (for example MIN-27).
+
+Before creating or mutating anything:
+1. Check whether the issue, branch/worktree, PR, deployment, comment, or evidence record already exists.
+2. Reuse or update the existing artifact when it represents the same work.
+3. Permit only one active write owner for one work key at a time.
+4. Record the branch/PR/commit/deployment identifiers back in the existing execution source.
+5. Never create a second workstream merely because a prior run ended or lost conversational context.
+
+A retry must be safe to repeat. If an action cannot be made idempotent, require an explicit precondition check or owner approval before repeating it.
+
+### Concurrency and isolation
+
+Default to:
+- read-heavy exploration, test analysis, security review, and summarization may run in parallel when independent;
+- no more than **two concurrent write-heavy streams per repository** unless a written plan explains why more are safe;
+- parallel writers must use separate worktrees or isolated cloud workspaces;
+- two write streams must not own the same files, migration, release state, or external side effect;
+- the lead agent owns reconciliation and may stop a stream when boundaries overlap.
+
+Do not confuse more agents with more throughput. Prefer the smallest parallel set that shortens the critical path.
+
+### Retry and circuit-breaker policy
+
+Classify before retrying.
+
+**Transient external/tool failure**
+- Retry at most twice with bounded backoff when the action is safe and idempotent.
+- Preserve the original error and each retry result.
+
+**Deterministic build/test/requirement failure**
+- Do not blindly retry.
+- Diagnose, make one bounded corrective change, and rerun the relevant verification.
+
+**Permission/configuration/decision blocker**
+- Do not retry until the prerequisite changes.
+
+**Recurring scheduled blocker**
+- If the same material blocker prevents progress on two consecutive scheduled runs, stop attempting that action, mark it BLOCKED, continue independent work, and surface one concise exception.
+
+Never run an unbounded repair loop.
+
+### Failure classification
+
+Record one primary class before deciding the next action:
+
+1. **Environment** — runtime, dependency, CI, setup, or cloud-environment mismatch.
+2. **Implementation** — product/code defect.
+3. **Requirement** — built behavior conflicts with accepted requirement or acceptance case.
+4. **External dependency** — provider/tool/service unavailable or changed.
+5. **Permission/configuration** — missing access, secret, repository rule, agent runtime, or environment setting.
+6. **Owner decision** — material choice cannot be delegated safely.
+
+A failing CI environment is not evidence of a product defect until classified.
+
+### Permission and approval envelope
+
+Default autonomous actions inside accepted scope:
+- read/reconcile repositories, requirements, Linear, Figma, CI, previews, logs, and deployment metadata;
+- update existing execution/evidence records;
+- create isolated branches/worktrees;
+- implement bounded reversible changes against accepted requirements;
+- run tests, static checks, builds, and approved preview deployments;
+- open PRs and request/perform allowed review;
+- repair ordinary test/CI defects that do not change product scope or security policy.
+
+Require explicit owner authority before:
+- changing product scope, customer promise, price/commercial terms, or approved design direction where alternatives matter;
+- spending money or adding paid services;
+- contacting customers/partners or sending external communications;
+- changing privacy/security policy, production access policy, or secret handling;
+- destructive data changes or migrations without a verified recovery path;
+- merging/releasing when repository/release gates are not active;
+- irreversible or materially risky architecture changes.
+
+Use the narrowest filesystem, network, connector, and production permissions that still let the assigned role complete its task.
+
+### Scheduled tasks, worktrees, and cloud environments
+
+- For scheduled Git work in a local/remote project, use a dedicated background worktree so it cannot collide with an interactive checkout.
+- For Codex Cloud, use a **published and tested** reusable environment before unattended write work; each new task should start in its isolated workspace from that environment.
+- Do not claim an environment is reproducible until a fresh task has completed setup, build/tests, and the required start/browser checks.
+- Keep production credentials and destructive permissions out of build/review agents unless their role explicitly requires them.
+- A normal chat ending is not a persistent worker; only an active scheduled/ongoing/cloud execution mechanism continues later.
+
+### Independent verification and review
+
+Separate these roles when consequences justify it:
+- **Builder** changes the system.
+- **Verifier/QA** proves specified behavior and failure paths.
+- **Reviewer** judges requirement, architecture, security, maintainability, and design fit.
+- **Production verifier** checks the actual release/runtime.
+
+The builder may run its own tests, but that does not become independent review. CI is independent mechanical evidence, not independent judgment. If a required independent reviewer cannot run, mark the review BLOCKED/NOT RUN rather than substituting the coordinator silently.
+
+### Hard-gate principle
+
+Convert important prose rules into enforceable controls whenever the platform supports it:
+- protected default branch / ruleset;
+- PR-before-merge;
+- required status checks;
+- resolved review conversations;
+- least-privilege workflow permissions;
+- dependency and security checks appropriate to the repository;
+- test/build/validation scripts;
+- environment/config validation;
+- deployment identity and rollback/recovery checks.
+
+Agent instructions explain behavior. Infrastructure prevents bypass.
+
+### Autonomous run completion
+
+Every unattended run should end with a compact ledger:
+- work keys claimed;
+- state transitions made;
+- exact evidence created or checked;
+- retries performed;
+- blockers/circuit breakers;
+- any owner decision required;
+- next READY work.
+
+If the run cannot prove a transition, leave the prior state unchanged.
 
 ## Completion statement
 
