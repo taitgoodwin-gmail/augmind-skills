@@ -1,0 +1,2079 @@
+{
+ "identity": {
+  "offering_name": "Digital Marketing Performance & Revenue",
+  "eyebrow": "AUGMIND DRAFT DRAFT DRAFT",
+  "cover_title": "Market Offering: Digital Marketing Performance & Revenue",
+  "tagline": "Managed digital marketing, from discovery to ongoing improvement",
+  "status_line": "Offering design: partner and expert review draft  ·  Version 0.9  ·  AugMind Confidential 2026",
+  "disclaimer": "DRAFT FOR REVIEW. AugMind Confidential 2026. Draft v0.9, October 7, 2026. Proposed: not approved by the partners or the subject matter experts. Not legal advice. No client has bought this offering, and AugMind has not run it once. This is not a client sales document.",
+  "pointer": "Partners: read slide {slide:decisions} first. It lists what gates the first sale and what gates the first Audit.",
+  "footer_parts": [
+   "Draft v0.9",
+   "October 7, 2026",
+   "DRAFT FOR REVIEW",
+   "AugMind Confidential 2026",
+   "Partner and expert review copy"
+  ]
+ },
+ "model": {
+  "start_label": "START",
+  "all_phases_label": "ALL PHASES"
+ },
+ "legend": [
+  [
+   "Platform rule",
+   "platform",
+   "the platform's own page."
+  ],
+  [
+   "Official guidance",
+   "official",
+   "a government, standards or professional body."
+  ],
+  [
+   "AugMind's choice",
+   "own",
+   "AugMind's own design; any link is background."
+  ],
+  [
+   "Open",
+   "open",
+   "not validated."
+  ]
+ ],
+ "start": {
+  "views": [
+   "Where this fits",
+   "The offering",
+   "Roles"
+  ],
+  "model_map": {
+   "title": "This offering applies the AugMind model to digital marketing",
+   "model_label": "THE AUGMIND MODEL",
+   "model_sub": "How AugMind works on any engagement",
+   "offering_label": "THIS OFFERING",
+   "offering_sub": "Three phases for digital marketing",
+   "model": [
+    {
+     "name": "ADVISE",
+     "text": "Find out what is true, and plan"
+    },
+    {
+     "name": "IMPLEMENT",
+     "text": "Build what was agreed, and test it"
+    },
+    {
+     "name": "OPERATE",
+     "text": "Run it and keep improving it"
+    }
+   ],
+   "cards": [
+    {
+     "label": "BEFORE THE DISCOVER PHASE",
+     "text": "Qualify. AugMind and the client decide whether to work together. It is part of selling, not a phase, and has no number."
+    },
+    {
+     "label": "HOW TO READ A NUMBER: 1.1.5",
+     "highlight": true,
+     "lines": [
+      [
+       "1",
+       "the phase: Discover"
+      ],
+      [
+       "1.1",
+       "the step: Audit"
+      ],
+      [
+       "1.1.5",
+       "the task: Data link"
+      ]
+     ]
+    },
+    {
+     "label": "HOW TO FIND YOUR PLACE",
+     "text": "The top row shows which phase a slide belongs to. The row beneath shows which view of that phase is open, and how many there are. Every phase uses the same kinds of view, in the same order. The count differs by phase.",
+     "size": 11.5
+    }
+   ],
+   "evidence": "Advise is delivered as phase 1 Discover, Implement as phase 2 Implement, and Operate as phase 3 Run. Evidence: AugMind's choice. The names are proposed until the partners approve them."
+  },
+  "matrix": {
+   "title": "One offering, three phases, each ending in a client approval",
+   "rows": [
+    {
+     "label": "INPUTS",
+     "cells": [
+      "Signed agreement. The question and scope. Read-only exports from the site, ad platforms and sales records.",
+      "Signed Implement agreement. Signed Roadmap. Authorized access. Approved claims, creative and spend limits.",
+      "Run agreement. Accepted setup and run instructions. Chosen services. Written approval limits."
+     ]
+    },
+    {
+     "label": "ACTIVITIES",
+     "cells": [
+      "AugMind checks the marketing against the client's own sales records, then creates the Roadmap.",
+      "AugMind builds what the Roadmap approved, and tests it.",
+      "AugMind operates, reports on, and improves the chosen services."
+     ]
+    },
+    {
+     "label": "DELIVERABLES",
+     "cells": [
+      "Decision brief and Roadmap.",
+      "Working result with test evidence. Run instructions.",
+      "Signed monthly record. Quarterly results review."
+     ]
+    },
+    {
+     "label": "APPROVAL",
+     "cells": [
+      "Client sponsor accepts the findings and signs the Roadmap.",
+      "Client sponsor accepts readiness to run.",
+      "Client sponsor signs the monthly record, and decides each quarter."
+     ]
+    },
+    {
+     "label": "ROLES",
+     "cells": [
+      "Engagement lead, data analyst, marketing strategist, data engineer.",
+      "Engagement lead, marketing specialist, data engineer.",
+      "Engagement lead, marketing specialist, marketing strategist, data analyst."
+     ]
+    }
+   ],
+   "note": [
+    "Every phase",
+    "The outside reviewer checks the deliverables before the client sees them. The client owns its accounts and data throughout."
+   ],
+   "evidence": "Evidence: AugMind's choice. Source: playbook v2.1 and delivery records v1.3.1. Selling as one offering is a recommendation the partners have not approved."
+  },
+  "roles": {
+   "title": "Seven AugMind roles and four client roles; the reviewer stays outside",
+   "chart_heading": "WHO REPORTS TO WHOM (PROPOSED)",
+   "chart": {
+    "lead": {
+     "name": "Engagement lead",
+     "sub": "Partner or junior partner"
+    },
+    "second": {
+     "name": "Project manager",
+     "sub": "At 3+ platforms or a subcontractor"
+    },
+    "team": [
+     {
+      "name": "Marketing strategist"
+     },
+     {
+      "name": "Data analyst"
+     },
+     {
+      "name": "Data engineer",
+      "open": true,
+      "open_note": "(fractional)"
+     },
+     {
+      "name": "Marketing specialist"
+     }
+    ],
+    "outside": {
+     "name": "Outside reviewer",
+     "open": true,
+     "text": "Outside the team. Reports to a partner who is not on the engagement."
+    }
+   },
+   "table": {
+    "header": "Role and what it does",
+    "rows": [
+     {
+      "name": "Engagement lead",
+      "does": "Owns the plan, the quality of the work and client communication",
+      "open": false,
+      "letters": [
+       "A",
+       "A",
+       "A"
+      ]
+     },
+     {
+      "name": "Project manager",
+      "does": "Coordinates under the lead",
+      "open": false,
+      "letters": [
+       "C",
+       "C",
+       "C"
+      ]
+     },
+     {
+      "name": "Marketing strategist",
+      "does": "Reads the ad platforms, ranks findings and next work",
+      "open": false,
+      "letters": [
+       "R",
+       "—",
+       "R"
+      ]
+     },
+     {
+      "name": "Data analyst",
+      "does": "Gets access in place, checks data, runs the weekly checks",
+      "open": false,
+      "letters": [
+       "R",
+       "—",
+       "R"
+      ]
+     },
+     {
+      "name": "Data engineer",
+      "does": "Matches leads to sales records, builds data connections",
+      "open": true,
+      "letters": [
+       "R",
+       "R",
+       "—"
+      ]
+     },
+     {
+      "name": "Marketing specialist",
+      "does": "Runs client ad accounts (media buyer); releases AI output",
+      "open": false,
+      "letters": [
+       "—",
+       "R",
+       "R"
+      ]
+     },
+     {
+      "name": "Outside reviewer",
+      "does": "Did not do the work. Checks it and can block delivery",
+      "open": true,
+      "letters": [
+       "V",
+       "V",
+       "V"
+      ]
+     },
+     {
+      "name": "Client sponsor",
+      "does": "Owns the decision. Approves at the end of each phase",
+      "open": false,
+      "letters": [
+       "S",
+       "S",
+       "S"
+      ]
+     },
+     {
+      "name": "Client data owner",
+      "does": "Supplies records and access. Signs the definitions in Discover",
+      "open": false,
+      "letters": [
+       "S",
+       "C",
+       "C"
+      ]
+     },
+     {
+      "name": "Client sales contact",
+      "does": "Explains how a lead becomes a sale",
+      "open": false,
+      "letters": [
+       "C",
+       "—",
+       "—"
+      ]
+     },
+     {
+      "name": "Client tester",
+      "does": "Tests the result before the sponsor accepts",
+      "open": false,
+      "letters": [
+       "—",
+       "V",
+       "—"
+      ]
+     }
+    ]
+   },
+   "legend": [
+    [
+     "A",
+     "accountable"
+    ],
+    [
+     "R",
+     "does the work"
+    ],
+    [
+     "V",
+     "verifies before release"
+    ],
+    [
+     "S",
+     "signs off"
+    ],
+    [
+     "C",
+     "consulted or coordinating"
+    ],
+    [
+     "—",
+     "not involved"
+    ]
+   ],
+   "evidence": "Evidence: AugMind's choice, proposed. Source: the earlier role chart (deck v1.2) and the October 2, 2026 partner meeting. The roles are not all separate people: one person can hold several, except the outside reviewer. The experts have not confirmed these letters."
+  }
+ },
+ "phases": [
+  {
+   "number": 1,
+   "name": "Discover",
+   "overview": {
+    "title": "Discover: what is true about the client's marketing today",
+    "purpose": "Answer the client's question about its current marketing, using the client's own sales records, and recommend what to do next.",
+    "columns": [
+     {
+      "label": "INPUTS",
+      "subtitle": "What must be in place",
+      "numbered": false,
+      "items": [
+       "Signed agreement and statement of work",
+       "The question and scope",
+       "Read-only exports from every source",
+       "Intake answers",
+       "Named client contacts",
+       "Data-handling record",
+       "Category check"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "ACTIVITIES",
+      "subtitle": "The order of work",
+      "numbered": true,
+      "items": [
+       "Agree on the question and data plan",
+       "Save a fixed copy of the inputs",
+       "Agree on the definitions",
+       "Run the Audit (step 1.1)",
+       "Rank the options",
+       "Write the Roadmap (step 1.2)",
+       "Outside review of both",
+       "Present the findings and the Roadmap"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "DELIVERABLES",
+      "subtitle": "What the client receives",
+      "numbered": false,
+      "items": [
+       "Decision brief, in nine sections",
+       "Definitions and result references",
+       "Roadmap, in ten sections",
+       "Review and presentation record"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "APPROVAL",
+      "subtitle": "What is signed",
+      "numbered": false,
+      "items": [
+       "Client sponsor accepts the findings, or names gaps in writing",
+       "Client sponsor signs the Roadmap",
+       "Nothing launches before that"
+      ],
+      "highlight": true
+     }
+    ],
+    "notes": [
+     [
+      "Two kinds",
+      "Performance Audit for a client that already markets. Readiness Audit for a client that has not started: tasks 1.1.1 to 1.1.4 and 1.1.9 only."
+     ],
+     [
+      "The client then decides",
+      "Continue to Implement, investigate further, change the scope, or stop."
+     ],
+     [
+      "Evidence",
+      "The nine checks rest mostly on the platforms' own pages. The order of work and the deliverables are AugMind's choice."
+     ]
+    ]
+   },
+   "inputs_roles": {
+    "title": "Discover inputs and roles",
+    "view_label": "Inputs and roles",
+    "inputs_heading": "INPUTS: WHAT IS NEEDED, AND WHO PROVIDES IT",
+    "roles_heading": "ROLES IN THIS PHASE",
+    "inputs": [
+     {
+      "name": "Signed agreement and statement of work",
+      "from": "Client sponsor and engagement lead",
+      "text": "The question, the sources, the period, the deliverables, and what is excluded."
+     },
+     {
+      "name": "The question and scope",
+      "from": "Client sponsor",
+      "text": "Questions to answer and excluded. Business unit, channels, accounts, lead paths and dates."
+     },
+     {
+      "name": "Read-only exports",
+      "from": "Client data owner",
+      "text": "Website, ad platforms, analytics, forms, call tracking and sales records. One test export from each first."
+     },
+     {
+      "name": "Intake answers",
+      "from": "Client data owner and sales contact",
+      "text": "Who owns each account. Every way a lead arrives. Known data problems."
+     },
+     {
+      "name": "Named client contacts",
+      "from": "Client sponsor",
+      "text": "A sponsor who approves, a data owner who supplies records, a sales contact."
+     },
+     {
+      "name": "Data-handling record",
+      "from": "Engagement lead",
+      "text": "Why each field is needed, where records are held, who sees what, how long they are kept."
+     },
+     {
+      "name": "Category check",
+      "from": "Engagement lead",
+      "text": "Housing, employment, credit or other financial products, or health: extra steps apply."
+     }
+    ],
+    "gray_cards": [
+     {
+      "name": "Not part of Discover",
+      "text": "Changing accounts or campaigns, publishing, sending customer data to an ad platform, contacting customers, or a controlled test."
+     }
+    ],
+    "role_groups": [
+     {
+      "label": "AugMind",
+      "client": false,
+      "roles": [
+       {
+        "name": "Engagement lead",
+        "open": false,
+        "does": "Accountable. Owns the recommendation."
+       },
+       {
+        "name": "Data analyst",
+        "open": false,
+        "does": "Gets access in place and checks the data."
+       },
+       {
+        "name": "Marketing strategist",
+        "open": false,
+        "does": "Reads the ad platforms. Ranks the findings."
+       },
+       {
+        "name": "Data engineer",
+        "open": true,
+        "does": "Matches leads to sales records."
+       },
+       {
+        "name": "Outside reviewer",
+        "open": true,
+        "does": "Rechecks the figures. Can block delivery."
+       }
+      ]
+     },
+     {
+      "label": "Client",
+      "client": true,
+      "roles": [
+       {
+        "name": "Sponsor",
+        "open": false,
+        "does": "Accepts the findings. Signs the Roadmap."
+       },
+       {
+        "name": "Data owner",
+        "open": false,
+        "does": "Supplies records. Signs the definitions."
+       },
+       {
+        "name": "Sales contact",
+        "open": false,
+        "does": "Explains the sales process."
+       }
+      ]
+     }
+    ],
+    "evidence": "Evidence: AugMind's choice. Inputs come from the playbook v2.1, delivery records and draft statement of work. Roles come from partner comments and the October 2, 2026 partner meeting."
+   },
+   "steps": [
+    {
+     "number": "1.1",
+     "name": "Audit",
+     "title": "Step 1.1 Audit: nine tasks, eight tied to an outside source",
+     "tasks": [
+      {
+       "name": "Website",
+       "number": "1.1.1",
+       "text": "Speed and usability for real visitors, measured at the 75th percentile of page loads.",
+       "tag": "platform",
+       "sources": [
+        "Google: Web Vitals",
+        "Google: PageSpeed Insights"
+       ]
+      },
+      {
+       "name": "Search",
+       "number": "1.1.2",
+       "text": "Whether Google can index and show the pages, and any manual actions against the site.",
+       "tag": "platform",
+       "sources": [
+        "Google Search Console: page indexing",
+        "Google Search Console: manual actions"
+       ]
+      },
+      {
+       "name": "Tracking",
+       "number": "1.1.3",
+       "text": "Whether the tags work, using each platform's own diagnostic tool. Meta's tool also flags duplicated Pixel code.",
+       "tag": "platform",
+       "sources": [
+        "Google: Tag Assistant",
+        "Meta: Ads Data Advisor",
+        "TikTok: Events Manager diagnostics"
+       ]
+      },
+      {
+       "name": "Consent and notice",
+       "number": "1.1.4",
+       "text": "Whether visitors' consent choices are passed on, and whether the site gives the notice Meta's terms require.",
+       "tag": "platform",
+       "sources": [
+        "Google: consent mode",
+        "Meta: Business Tools Terms"
+       ]
+      },
+      {
+       "name": "Data link",
+       "number": "1.1.5",
+       "text": "Whether sale results reach the ad platforms, by which route, and how well they match.",
+       "tag": "platform",
+       "sources": [
+        "Google Ads: offline conversion imports",
+        "Meta: Dataset Quality API",
+        "TikTok: Events API"
+       ]
+      },
+      {
+       "name": "Ad accounts",
+       "number": "1.1.6",
+       "text": "Each platform's own account score and recommendations. Meta delivers its best-practice guidance through its opportunity score.",
+       "tag": "platform",
+       "sources": [
+        "Google Ads: optimization score",
+        "Meta: opportunity score",
+        "Meta: performance marketing best practices",
+        "TikTok: Account Optimization Score"
+       ]
+      },
+      {
+       "name": "Attribution",
+       "number": "1.1.7",
+       "text": "Which rule assigns credit for a sale, and the attribution windows in use.",
+       "tag": "platform",
+       "sources": [
+        "Google Analytics: attribution",
+        "TikTok: attribution window"
+       ]
+      },
+      {
+       "name": "Sales match",
+       "number": "1.1.8",
+       "text": "Leads matched to the client's sales records by written rules.",
+       "tag": "own",
+       "note": "No outside source. Experts to confirm."
+      },
+      {
+       "name": "Rules review",
+       "number": "1.1.9",
+       "text": "Evidence behind ad claims, and endorsement disclosure. Not legal advice.",
+       "tag": "official",
+       "sources": [
+        "FTC: Advertising FAQs for small business",
+        "FTC: Endorsement Guides",
+        "FTC: Disclosures 101"
+       ]
+      }
+     ]
+    },
+    {
+     "number": "1.2",
+     "name": "Roadmap",
+     "title": "Step 1.2 Roadmap: ten tasks, the first six (1.2.1 to 1.2.6)",
+     "tasks": [
+      {
+       "name": "Goals, audience, message",
+       "number": "1.2.1",
+       "text": "The basics of a marketing plan.",
+       "tag": "official",
+       "sources": [
+        "Small Business Administration: marketing",
+        "American Marketing Association: strategy"
+       ]
+      },
+      {
+       "name": "Platforms and services",
+       "number": "1.2.2",
+       "text": "The platforms and services selected, with quantities.",
+       "tag": "own",
+       "sources": [
+        "Pew Research: social media use, 2025"
+       ],
+       "note": "Background, not backing:"
+      },
+      {
+       "name": "Budget and fee",
+       "number": "1.2.3",
+       "text": "The advertising budget and AugMind's fee, shown separately. Google requires a management fee to be disclosed in writing and on invoices.",
+       "tag": "platform",
+       "sources": [
+        "Google: transparency requirements"
+       ]
+      },
+      {
+       "name": "Ranked work order",
+       "number": "1.2.4",
+       "text": "The order of the Implement work.",
+       "tag": "own",
+       "note": "AugMind's own."
+      },
+      {
+       "name": "Limits of authority",
+       "number": "1.2.5",
+       "text": "What AugMind may change without asking, and what stays with the client.",
+       "tag": "own",
+       "note": "AugMind's own."
+      },
+      {
+       "name": "First-quarter tests",
+       "number": "1.2.6",
+       "text": "What will be tested and for how long. Google recommends at least 4 to 6 weeks when results cannot yet be determined.",
+       "tag": "platform",
+       "sources": [
+        "Google Ads: experiments"
+       ]
+      },
+      {
+       "name": "Resource plan",
+       "number": "1.2.7",
+       "text": "Who staffs the plan: roles, named people and subcontractors, and which seats are still open.",
+       "tag": "own",
+       "note": "New in v0.5. AugMind's own. Experts to confirm."
+      },
+      {
+       "name": "Acceptance and quality",
+       "number": "1.2.8",
+       "text": "What the client accepts as done, and the tests each result must pass before release.",
+       "tag": "own",
+       "note": "New in v0.5. AugMind's own. Experts to confirm."
+      },
+      {
+       "name": "Data-flow schedule",
+       "number": "1.2.9",
+       "text": "Which data moves where and when, who sees it, where it is held and for how long.",
+       "tag": "own",
+       "note": "New in v0.5. AugMind's own. Experts to confirm."
+      },
+      {
+       "name": "Run, support and continuity",
+       "number": "1.2.10",
+       "text": "Who operates after launch, who covers an absence, how support works, and what happens if the client stops.",
+       "tag": "own",
+       "note": "New in v0.5. AugMind's own. Experts to confirm."
+      }
+     ],
+     "bands": [
+      {
+       "heading": "FROM THE EXPERTS, DONE DURING STEP 1.1 (EACH IS ONE PERSON'S VIEW)",
+       "cards": [
+        {
+         "name": "Goals and competitors",
+         "text": "Start from the client's goals and a look at its competitors. (Ayesha)",
+         "tag": "open",
+         "note": "One expert's view. Not yet a numbered task."
+        },
+        {
+         "name": "Speed to lead",
+         "text": "Measure how fast a new lead gets a call back, and whether phone calls are tracked. (Chris F.)",
+         "tag": "open",
+         "note": "One expert's view. Not yet a numbered task."
+        }
+       ],
+       "fill": null
+      }
+     ],
+     "mapping": {
+      "name": "Which task writes which Roadmap section",
+      "text": "Each Roadmap section (slide {slide:phase1:deliverables}) and the task that writes it. Task 1.2.6, first-quarter tests, goes in section 6.",
+      "tag": "open",
+      "note": "New in v0.5. Experts to confirm the mapping.",
+      "pairs": [
+       [
+        "1  Strategy",
+        "1.2.1"
+       ],
+       [
+        "2  Selected scope",
+        "1.2.2"
+       ],
+       [
+        "3  Resource plan",
+        "1.2.7"
+       ],
+       [
+        "4  Schedule and dependencies",
+        "1.2.4"
+       ],
+       [
+        "5  Commercial schedule",
+        "1.2.3"
+       ],
+       [
+        "6  Acceptance and quality",
+        "1.2.6, 1.2.8"
+       ],
+       [
+        "7  Authority and access",
+        "1.2.5"
+       ],
+       [
+        "8  Data-flow schedule",
+        "1.2.9"
+       ],
+       [
+        "9  Run, support and continuity",
+        "1.2.10"
+       ],
+       [
+        "10  Plan approval",
+        "Signed by the client"
+       ]
+      ]
+     }
+    }
+   ],
+   "deliverables": {
+    "title": "Discover deliverables: what the client receives and signs",
+    "lists": [
+     {
+      "name": "Decision brief",
+      "subtitle": "Nine sections",
+      "items": [
+       "Buyer problem and trigger",
+       "Question and scope",
+       "Readiness and boundaries",
+       "Baseline",
+       "Problem and evidence",
+       "Options",
+       "Recommendation",
+       "Next decision",
+       "Review and acceptance"
+      ]
+     },
+     {
+      "name": "Roadmap",
+      "subtitle": "Ten sections. Sets the scope of Implement and Run.",
+      "items": [
+       "Strategy",
+       "Selected scope",
+       "Resource plan",
+       "Schedule and dependencies",
+       "Commercial schedule",
+       "Acceptance and quality",
+       "Authority and access",
+       "Data-flow schedule",
+       "Run, support and continuity",
+       "Plan approval"
+      ]
+     }
+    ],
+    "texts": [
+     {
+      "name": "Definitions and result references",
+      "text": "Where each figure comes from. The accepted rules and time windows. Totals a reviewer can reproduce. Exact, probable and unmatched records kept separate."
+     },
+     {
+      "name": "Review and presentation record",
+      "text": "What the outside reviewer recalculated and checked, the defects found, the questions answered at the presentation, and the client's decision."
+     }
+    ],
+    "approval": [
+     {
+      "text": "The agreed question is answered at the agreed depth",
+      "confirms": "Engagement lead",
+      "highlight": false
+     },
+     {
+      "text": "Figures can be reproduced, and the records behind each rate are visible",
+      "confirms": "Outside reviewer",
+      "highlight": false
+     },
+     {
+      "text": "Limits are stated, options are actionable, and the Roadmap follows from the findings",
+      "confirms": "Outside reviewer",
+      "highlight": false
+     },
+     {
+      "text": "The client accepts the findings, or names gaps in writing",
+      "confirms": "Client sponsor",
+      "highlight": true
+     },
+     {
+      "text": "The client signs the Roadmap",
+      "confirms": "Client sponsor",
+      "highlight": true
+     }
+    ],
+    "approval_heading": "APPROVAL: WHAT MUST BE TRUE, AND WHO CONFIRMS",
+    "evidence": "Evidence: AugMind's choice. Source: delivery records v1.3.1 and the draft Audit statement of work. Who confirms each test is proposed. Open: the playbook calls the first deliverable \"scorecard, ranked findings and statement of limits\"."
+   }
+  },
+  {
+   "number": 2,
+   "name": "Implement",
+   "overview": {
+    "title": "Implement: build what the Roadmap approved, and prove it works",
+    "purpose": "Produce the working setup or repair the Roadmap approved, with test evidence, and get it accepted as ready to run. For a client with nothing set up, Implement builds it from scratch.",
+    "columns": [
+     {
+      "label": "INPUTS",
+      "subtitle": "What must be in place",
+      "numbered": false,
+      "items": [
+       "Signed Roadmap and Implement agreement",
+       "Authorized access to accounts and systems",
+       "Approved claims and creative",
+       "Spend limits",
+       "A named client tester",
+       "Data-handling record, rechecked"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "ACTIVITIES",
+      "subtitle": "The order of work",
+      "numbered": true,
+      "items": [
+       "Check scope, access and permissions",
+       "Save a fixed copy of the inputs",
+       "Build or repair the six tasks (step 2.1)",
+       "Check duplicates, quality and spend limits",
+       "Record expected against actual results",
+       "Outside review, then repair or release",
+       "Keep the accepted run and its instructions"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "DELIVERABLES",
+      "subtitle": "What the client receives",
+      "numbered": false,
+      "items": [
+       "Working result and evidence, in eight sections",
+       "Run instructions",
+       "Test record, eight tests",
+       "Operating acceptance, eight items"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "APPROVAL",
+      "subtitle": "What is signed",
+      "numbered": false,
+      "items": [
+       "Outside reviewer runs the readiness check",
+       "Client sponsor accepts readiness",
+       "Run starts only after this"
+      ],
+      "highlight": true
+     }
+    ],
+    "notes": [
+     [
+      "From the experts",
+      "Where it is sold, cover landing pages and lead follow-up, not ads alone (Adil). A person edits AI-assisted creative before release (Ayesha, Adil, Chris). Each is one person's view."
+     ],
+     [
+      "Evidence",
+      "Four of the six tasks rest on the platforms' own pages. The tests, the readiness check and the order of work are AugMind's choice."
+     ]
+    ]
+   },
+   "inputs_roles": {
+    "title": "Implement inputs and roles",
+    "view_label": "Inputs and roles",
+    "inputs_heading": "INPUTS: WHAT IS NEEDED, AND WHO PROVIDES IT",
+    "roles_heading": "ROLES IN THIS PHASE",
+    "inputs": [
+     {
+      "name": "Signed Roadmap and Implement agreement",
+      "from": "Client sponsor",
+      "text": "The approved version and the work it permits. The agreement is separate."
+     },
+     {
+      "name": "Authorized access",
+      "from": "Client data owner",
+      "text": "The permission level on each platform, kept separate from what the contract lets AugMind do."
+     },
+     {
+      "name": "Approved claims and creative",
+      "from": "Client sponsor",
+      "text": "The claims, with the client's evidence for each, and the creative cleared to run."
+     },
+     {
+      "name": "Spend limits",
+      "from": "Client sponsor",
+      "text": "The budget envelope and the limits on changes AugMind may make without asking."
+     },
+     {
+      "name": "Named client tester",
+      "from": "Client sponsor",
+      "text": "Who tests the result for the client before the sponsor accepts it."
+     },
+     {
+      "name": "Data-handling record",
+      "from": "Engagement lead",
+      "text": "Rechecked before any data is collected or shared: fields, storage, who sees what, retention."
+     }
+    ],
+    "gray_cards": [],
+    "role_groups": [
+     {
+      "label": "AugMind",
+      "client": false,
+      "roles": [
+       {
+        "name": "Engagement lead",
+        "open": false,
+        "does": "Accountable for staff and subcontractors."
+       },
+       {
+        "name": "Marketing specialist",
+        "open": false,
+        "does": "Builds and repairs in the ad accounts."
+       },
+       {
+        "name": "Data engineer",
+        "open": true,
+        "does": "Builds tracking and data connections."
+       },
+       {
+        "name": "Outside reviewer",
+        "open": true,
+        "does": "Did not build it. Runs the readiness check."
+       }
+      ]
+     },
+     {
+      "label": "Client",
+      "client": true,
+      "roles": [
+       {
+        "name": "Sponsor",
+        "open": false,
+        "does": "Accepts readiness."
+       },
+       {
+        "name": "Client tester",
+        "open": false,
+        "does": "Tests the result for the client."
+       },
+       {
+        "name": "Data owner",
+        "open": false,
+        "does": "Grants access."
+       }
+      ]
+     }
+    ],
+    "evidence": "Evidence: AugMind's choice. Inputs come from the playbook v2.1, delivery records and draft statement of work. Roles come from partner comments and the October 2, 2026 partner meeting."
+   },
+   "steps": [
+    {
+     "number": "2.1",
+     "name": "Implement",
+     "title": "Step 2.1 Implement: six tasks",
+     "tasks": [
+      {
+       "name": "Remove prohibited or undeclared items",
+       "number": "2.1.1",
+       "text": "Correct anything that breaks platform policy, first. Google says repeated or especially serious violations can lead to suspension.",
+       "tag": "platform",
+       "sources": [
+        "Google: third-party policy violations",
+        "Meta: choose a Special Ad Category"
+       ]
+      },
+      {
+       "name": "Tracking and data link",
+       "number": "2.1.2",
+       "text": "Repair or install tags and server-side connections, including Google's Data Manager API. Hash contact details where the platform requires it, as Meta does. Remove duplicate events.",
+       "tag": "platform",
+       "sources": [
+        "Meta: duplicate Pixel and Conversions API events",
+        "Meta: customer information parameters",
+        "TikTok: Events API"
+       ]
+      },
+      {
+       "name": "Account structure",
+       "number": "2.1.3",
+       "text": "Simplify so each campaign can learn. Meta advises fewer, combined ad sets. TikTok suggests 3 to 5 diversified ad groups per campaign.",
+       "tag": "platform",
+       "sources": [
+        "Meta: learning phase",
+        "TikTok: creative best practices"
+       ]
+      },
+      {
+       "name": "Creative",
+       "number": "2.1.4",
+       "text": "Refresh and diversify creative to TikTok's and Google's published guidance.",
+       "tag": "platform",
+       "sources": [
+        "TikTok: creative best practices",
+        "Google Ads: set up your ads for success"
+       ]
+      },
+      {
+       "name": "Set up the tests",
+       "number": "2.1.5",
+       "text": "Set up the tests the Roadmap named, using the platform's experiment tools.",
+       "tag": "own",
+       "sources": [
+        "Google Ads: experiments"
+       ],
+       "note": "Background, not backing:"
+      },
+      {
+       "name": "Readiness check",
+       "number": "2.1.6",
+       "text": "The outside reviewer checks the work before launch, and the client accepts readiness.",
+       "tag": "own",
+       "note": "AugMind's own gate."
+      }
+     ],
+     "bands": [
+      {
+       "heading": "WHAT THE PLATFORMS SAY THAT CHANGES HOW THIS IS DONE, AND ONE AUGMIND DEFAULT",
+       "cards": [
+        {
+         "name": "Google: sale results",
+         "text": "From June 15, 2026, offline conversion imports and enhanced conversions for leads uploads move to the Data Manager API (tasks 1.1.5, 2.1.2).",
+         "tag": "platform",
+         "sources": [
+          "Google Ads: offline conversion imports"
+         ]
+        },
+        {
+         "name": "Google: experiments",
+         "text": "If results cannot yet be determined, let an experiment run at least 4 to 6 weeks.",
+         "tag": "platform",
+         "sources": [
+          "Google Ads: experiments"
+         ]
+        },
+        {
+         "name": "Default: one priority channel",
+         "text": "Start a new client on one channel, unless the Roadmap says otherwise.",
+         "tag": "own",
+         "note": "AugMind's own. None of the platform pages read supports it."
+        }
+       ],
+       "fill": "lavender"
+      }
+     ]
+    }
+   ],
+   "deliverables": {
+    "title": "Implement deliverables: what the client receives and signs",
+    "lists": [
+     {
+      "name": "Working result and evidence",
+      "subtitle": "Eight sections",
+      "items": [
+       "Accepted plan and its approval",
+       "Working assets and configuration",
+       "Run instructions",
+       "Baseline and expected results",
+       "Actual test results",
+       "Changes and trace",
+       "Defects and repairs",
+       "Review and release decision"
+      ]
+     },
+     {
+      "name": "Operating acceptance",
+      "subtitle": "Eight items, each with evidence",
+      "items": [
+       "Scope and working result",
+       "Tests and review",
+       "Data, access and views",
+       "Operating owner and backup",
+       "Instructions, monitoring, support",
+       "Budget and authority",
+       "Open defects and limits",
+       "Client acceptance"
+      ]
+     }
+    ],
+    "texts": [
+     {
+      "name": "Test record: eight tests",
+      "text": "Incomplete records or access. Conflicting identifiers. Duplicate event or retry. Missing permission. Unsupported AI or causal claim. Failed integration or spend-limit check. Specialist unavailable. Work above capacity."
+     },
+     {
+      "name": "Run instructions",
+      "text": "Who operates, the prerequisites, the procedure, safe start and stop, how to validate, how to recover, and where the evidence is kept."
+     }
+    ],
+    "approval": [
+     {
+      "text": "Actual tests meet the agreed criteria. A planned test is not a pass.",
+      "confirms": "Outside reviewer",
+      "highlight": false
+     },
+     {
+      "text": "A reviewer can reproduce the material results",
+      "confirms": "Outside reviewer",
+      "highlight": false
+     },
+     {
+      "text": "Defects and release conditions are stated",
+      "confirms": "Outside reviewer",
+      "highlight": false
+     },
+     {
+      "text": "The client accepts readiness",
+      "confirms": "Client sponsor",
+      "highlight": true
+     },
+     {
+      "text": "Run starts only after acceptance",
+      "confirms": "Client sponsor",
+      "highlight": true
+     }
+    ],
+    "approval_heading": "APPROVAL: WHAT MUST BE TRUE, AND WHO CONFIRMS",
+    "evidence": "Evidence: AugMind's choice. Source: delivery records v1.3.1, records 3 and 4. No outside source sets these sections or tests. Who confirms each test is proposed."
+   }
+  },
+  {
+   "number": 3,
+   "name": "Run",
+   "overview": {
+    "title": "Run: operate, report every month, improve every quarter",
+    "purpose": "Operate the services the client chose, within written limits. Report work, spend, results and limits each month. Review and improve each quarter.",
+    "columns": [
+     {
+      "label": "INPUTS",
+      "subtitle": "What must be in place",
+      "numbered": false,
+      "items": [
+       "Signed Run agreement",
+       "Accepted setup and run instructions",
+       "The chosen services and quantities",
+       "Written approval limits",
+       "Monthly and quarterly records",
+       "The platforms in scope"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "ACTIVITIES",
+      "subtitle": "Two steps, nine tasks",
+      "numbered": false,
+      "items": [
+       "Step 3.1  Run each month: operate, protect, report, decide, keep the rhythm",
+       "Step 3.2  Improve each quarter: tests, quarterly review, yearly Roadmap refresh, expand on evidence",
+       "Five checks before any refreshed figure is trusted"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "DELIVERABLES",
+      "subtitle": "What the client receives",
+      "numbered": false,
+      "items": [
+       "Signed monthly record",
+       "Operating run record",
+       "Quarterly results review, in eight sections",
+       "Next-period work list"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "APPROVAL",
+      "subtitle": "What is signed",
+      "numbered": false,
+      "items": [
+       "Outside reviewer checks the monthly record first",
+       "Engagement lead and client sponsor sign it",
+       "Each quarter the client continues, adjusts, expands or closes"
+      ],
+      "highlight": true
+     }
+    ],
+    "notes": [
+     [
+      "Rhythm",
+      "Weekly checks, monthly record, quarterly review, yearly Roadmap refresh."
+     ],
+     [
+      "Written approval",
+      "AugMind gets the client's written approval before any change to spend, bids or audiences beyond the agreed limits (Tom, October 2, 2026 partner meeting)."
+     ],
+     [
+      "Evidence",
+      "The platforms publish how their learning phases and tests work. The rhythm and the monthly record are AugMind's choice."
+     ]
+    ]
+   },
+   "inputs_roles": {
+    "title": "Run inputs, services and roles",
+    "view_label": "Inputs, services and roles",
+    "inputs_heading": "INPUTS: WHAT IS NEEDED, AND WHO PROVIDES IT",
+    "roles_heading": "ROLES IN THIS PHASE",
+    "inputs": [
+     {
+      "name": "Signed Run agreement",
+      "from": "Client sponsor",
+      "text": "Separate from the Discover and Implement agreements. Names the services, quantities and frequency."
+     },
+     {
+      "name": "Accepted setup and run instructions",
+      "from": "AugMind, from Implement",
+      "text": "The exact result the client accepted, and how to run it."
+     },
+     {
+      "name": "Written approval limits",
+      "from": "Client sponsor",
+      "text": "Who may publish, contact customers, send data to a platform, change spend, and stop unsafe work."
+     },
+     {
+      "name": "Chosen services and quantities",
+      "from": "Client sponsor",
+      "text": "From the Roadmap. Buying Run does not include every service."
+     },
+     {
+      "name": "Monthly and quarterly records",
+      "from": "AugMind and client data owner",
+      "text": "Work, spend, the client's lead and sales records, test results, the current Roadmap."
+     }
+    ],
+    "gray_cards": [
+     {
+      "name": "Platforms",
+      "text": "Core: Google with YouTube, Meta, TikTok. Add-ons: Microsoft Advertising, LinkedIn. On request: Pinterest, Amazon Ads, Snapchat. Not at launch: Reddit, X."
+     }
+    ],
+    "role_groups": [
+     {
+      "label": "AugMind",
+      "client": false,
+      "roles": [
+       {
+        "name": "Engagement lead",
+        "open": false,
+        "does": "Accountable. Owns the monthly review."
+       },
+       {
+        "name": "Marketing specialist",
+        "open": false,
+        "does": "Operates the chosen services."
+       },
+       {
+        "name": "Marketing strategist",
+        "open": false,
+        "does": "Operates, and ranks next work."
+       },
+       {
+        "name": "Data analyst",
+        "open": false,
+        "does": "Runs weekly checks and the quarterly review."
+       },
+       {
+        "name": "Outside reviewer",
+        "open": true,
+        "does": "Checks the monthly record first."
+       }
+      ]
+     },
+     {
+      "label": "Client",
+      "client": true,
+      "roles": [
+       {
+        "name": "Sponsor",
+        "open": false,
+        "does": "Signs the monthly record. Decides each quarter."
+       },
+       {
+        "name": "Data owner",
+        "open": false,
+        "does": "Supplies records."
+       }
+      ]
+     }
+    ],
+    "choices": {
+     "heading": "SERVICES THE CLIENT CAN CHOOSE",
+     "items": [
+      {
+       "name": "Paid advertising",
+       "text": "Operates agreed campaigns within limits."
+      },
+      {
+       "name": "Customer records and follow-up",
+       "text": "Routes inquiries. Permitted email follow-up."
+      },
+      {
+       "name": "Content",
+       "text": "Drafts, publishes and maintains material."
+      },
+      {
+       "name": "Website improvement",
+       "text": "Improves selected pages or forms."
+      },
+      {
+       "name": "Search visibility",
+       "text": "Technical and content work. No ranking guarantee."
+      }
+     ]
+    },
+    "evidence": "Evidence: AugMind's choice. Source: playbook v2.1. Email follow-up is in scope; text-message and outbound-call campaigns are deferred. Core platforms are a recommendation the partners have not approved."
+   },
+   "steps": [
+    {
+     "number": "3.1",
+     "name": "Run each month",
+     "title": "Step 3.1 Run each month: five tasks, inside written limits",
+     "tasks": [
+      {
+       "name": "Operate",
+       "number": "3.1.1",
+       "text": "Run campaigns, content, email, page improvements and search work, respecting each platform's learning period.",
+       "tag": "platform",
+       "sources": [
+        "Google Ads: learning period",
+        "Meta: learning phase",
+        "TikTok: learning phase"
+       ]
+      },
+      {
+       "name": "Protect",
+       "number": "3.1.2",
+       "text": "Recheck tracking, consent, declarations and claims. Watch for policy changes. Email follows the FTC's CAN-SPAM guide.",
+       "tag": "own",
+       "sources": [
+        "TikTok: ad policy change log, 2026",
+        "FTC: CAN-SPAM compliance guide"
+       ],
+       "note": "Background, not backing:"
+      },
+      {
+       "name": "Report",
+       "number": "3.1.3",
+       "text": "Monthly record of work, spend, results and limits. Google requires reports to show costs, clicks and impressions.",
+       "tag": "platform",
+       "sources": [
+        "Google: transparency requirements"
+       ]
+      },
+      {
+       "name": "Decide",
+       "number": "3.1.4",
+       "text": "Agree on next month's work with the client.",
+       "tag": "own",
+       "note": "AugMind's own."
+      },
+      {
+       "name": "Rhythm",
+       "number": "3.1.5",
+       "text": "Weekly checks, monthly record, quarterly review, yearly refresh.",
+       "tag": "own",
+       "note": "None of the platform pages read sets a review rhythm."
+      },
+      {
+       "name": "Written approval first",
+       "text": "AugMind gets the client's written approval before any change to spend, bids or audiences beyond the agreed limits.",
+       "tag": "own",
+       "note": "Partner rule (Tom, October 2, 2026 partner meeting)."
+      }
+     ]
+    },
+    {
+     "number": "3.2",
+     "name": "Improve each quarter",
+     "title": "Step 3.2 Improve each quarter: four tasks and five data checks",
+     "tasks": [
+      {
+       "name": "Tests",
+       "number": "3.2.1",
+       "text": "One setting against another. Controlled tests where the client qualifies, scoped separately.",
+       "tag": "platform",
+       "sources": [
+        "Google Ads: experiments",
+        "Meta: Conversion Lift",
+        "Google Ads: Conversion Lift"
+       ]
+      },
+      {
+       "name": "Quarterly review",
+       "number": "3.2.2",
+       "text": "Continue, adjust, expand or close.",
+       "tag": "own",
+       "note": "The quarterly interval is AugMind's own."
+      },
+      {
+       "name": "Yearly Roadmap refresh",
+       "number": "3.2.3",
+       "text": "Keep the plan current at least once a year.",
+       "tag": "official",
+       "sources": [
+        "Small Business Administration: marketing"
+       ]
+      },
+      {
+       "name": "Expand on evidence",
+       "number": "3.2.4",
+       "text": "Add a platform or service when the current ones are stable.",
+       "tag": "own",
+       "note": "AugMind's own."
+      },
+      {
+       "name": "Five data checks",
+       "text": "Before any refreshed figure is trusted: file structure, volume within 20%, duplicates under 5%, unmatched share, totals within 10%.",
+       "tag": "open",
+       "note": "AugMind's planning numbers. Experts to confirm what each is compared to, and the unmatched-share limit."
+      }
+     ]
+    }
+   ],
+   "deliverables": {
+    "title": "Run deliverables: what the client receives and signs",
+    "lists": [
+     {
+      "name": "Signed monthly record",
+      "subtitle": "What every monthly record holds",
+      "items": [
+       "Work delivered",
+       "Money spent",
+       "Observed results",
+       "Platform-attributed results, labeled",
+       "Exact and uncertain links",
+       "Missing records",
+       "Limits",
+       "Next month's work"
+      ]
+     },
+     {
+      "name": "Quarterly results review",
+      "subtitle": "Eight sections",
+      "items": [
+       "Period, baseline and targets",
+       "Delivered work and spend",
+       "Results and limitations",
+       "Plan against actual effort",
+       "Continuing value",
+       "Lessons and next work list",
+       "Decision",
+       "Operating continuation"
+      ]
+     }
+    ],
+    "texts": [
+     {
+      "name": "Operating run record",
+      "text": "For each cycle: the work planned and shipped, who did it, the spend and authority check, quality and limits, exceptions, and the accepted evidence."
+     },
+     {
+      "name": "Next-period work list",
+      "text": "The work list in quarterly review section 6: ranked next work, the AugMind owner, the client decision needed, and the next results review."
+     }
+    ],
+    "approval": [
+     {
+      "text": "Outside reviewer checks the monthly record before it goes out",
+      "confirms": "Outside reviewer",
+      "highlight": false
+     },
+     {
+      "text": "Engagement lead and client sponsor sign the monthly record",
+      "confirms": "Both",
+      "highlight": false
+     },
+     {
+      "text": "Changes beyond agreed limits have written client approval",
+      "confirms": "Client sponsor",
+      "highlight": false
+     },
+     {
+      "text": "Outside reviewer signs the quarterly review first",
+      "confirms": "Outside reviewer",
+      "highlight": true
+     },
+     {
+      "text": "The client continues, adjusts, expands or closes",
+      "confirms": "Client sponsor",
+      "highlight": true
+     }
+    ],
+    "approval_heading": "APPROVAL: WHAT MUST BE TRUE, AND WHO CONFIRMS",
+    "evidence": "Evidence: AugMind's choice. Source: playbook v2.1 and delivery records v1.3.1, records 4 and 5. Who confirms each test is proposed."
+   }
+  }
+ ],
+ "all_phases": [
+  {
+   "view": "Reports",
+   "type": "tiers",
+   "title": "Reports keep what happened apart from platform claims",
+   "tiers": [
+    {
+     "name": "OBSERVED",
+     "when": "In every report",
+     "text": "Work delivered, money spent, and the client's own lead and sales records.",
+     "style": "solid"
+    },
+    {
+     "name": "PLATFORM-ATTRIBUTED",
+     "when": "In every report, labeled",
+     "text": "Conversions the platform credits to itself, under stated settings and attribution windows.",
+     "style": "highlight"
+    },
+    {
+     "name": "TESTED",
+     "when": "Optional, scoped separately",
+     "text": "A controlled test that estimates what the advertising caused.",
+     "style": "optional"
+    }
+   ],
+   "rules_heading": "RULES FOR EVERY FIGURE",
+   "rules": [
+    "Every percentage states the group counted, the date range and the rule.",
+    "A sale linked to an ad is a recorded association, not proof the ad caused it.",
+    "Unmatched ad spend is not proof of waste. It is a limit to investigate.",
+    "Fixed, approved rules do the counting and matching. AI does not invent measurements or decide identity.",
+    "People resolve identity conflicts."
+   ],
+   "cards_heading": "WHAT THE SOURCES SAY",
+   "cards": [
+    {
+     "name": "Attribution",
+     "text": "Assigns credit under a chosen model and window.",
+     "tag": "platform",
+     "sources": [
+      "Google Analytics: attribution",
+      "TikTok: attribution window"
+     ]
+    },
+    {
+     "name": "Outcome measurement",
+     "text": "Standards for measuring advertising outcomes.",
+     "tag": "official",
+     "sources": [
+      "Media Rating Council: outcomes standards"
+     ]
+    },
+    {
+     "name": "Lift tests",
+     "text": "Compare a test group with a control group.",
+     "tag": "platform",
+     "sources": [
+      "Meta: Conversion Lift",
+      "Google Ads: Conversion Lift"
+     ]
+    }
+   ],
+   "evidence": "The three-tier structure is AugMind's choice. This is the structure of the report, not a result."
+  },
+  {
+   "view": "Rules",
+   "type": "cards",
+   "title": "Six rules, with regulated industries on the next slide",
+   "cards": [
+    {
+     "name": "Inside the platforms' rules",
+     "number": "1",
+     "text": "Platforms restrict ads in regulated industries. AugMind works inside those rules.",
+     "tag": "platform",
+     "sources": [
+      "Google: restricted targeting",
+      "TikTok: Housing, Employment and Credit ad policy",
+      "Meta: Discriminatory Practices"
+     ]
+    },
+    {
+     "name": "Evidence before the ad runs",
+     "number": "2",
+     "text": "A claim needs evidence before the ad runs.",
+     "tag": "official",
+     "sources": [
+      "FTC: Advertising FAQs for small business"
+     ]
+    },
+    {
+     "name": "AugMind checks the evidence",
+     "number": "3",
+     "text": "AugMind checks the client's evidence itself. The client stays responsible for its claims.",
+     "tag": "official",
+     "sources": [
+      "FTC: Advertising FAQs for small business"
+     ]
+    },
+    {
+     "name": "A person releases AI output",
+     "number": "4",
+     "text": "A named person checks and releases anything AI drafted: the marketing specialist, with the outside reviewer checking.",
+     "tag": "own",
+     "sources": [
+      "FTC: deceptive AI claims, September 2024"
+     ],
+     "note": "Background, not backing:"
+    },
+    {
+     "name": "Notice before data",
+     "number": "5",
+     "text": "No customer data goes to an ad platform until notice and opt-out are checked.",
+     "tag": "platform",
+     "sources": [
+      "Meta: Business Tools Terms",
+      "Google: Customer Match policy"
+     ]
+    },
+    {
+     "name": "No guarantees",
+     "number": "6",
+     "text": "No guaranteed results, and no legal advice.",
+     "tag": "own",
+     "note": "AugMind's own."
+    }
+   ]
+  },
+  {
+   "view": "Regulated industries",
+   "type": "panel",
+   "title": "Regulated industries: five extra steps",
+   "heading": "REGULATED INDUSTRIES: EXTRA STEPS",
+   "steps": [
+    "Record the category at Qualify.",
+    "Bring in a privacy or sector specialist.",
+    "Apply each platform's special category settings.",
+    "Send no health or financial data to ad platforms.",
+    "Have a lawyer review before launch."
+   ],
+   "notes": [
+    [
+     "Google",
+     "restricts targeting for housing, employment and consumer finance in the United States and Canada. Health is a separate sensitive category."
+    ],
+    [
+     "Meta",
+     "prohibits discriminatory targeting, sets rules for financial, insurance and health ads, and requires a Special Ad Category for housing, employment, and financial products and services. For advertisers based in or reaching the US, or reaching Canada and certain European countries, that limits targeting by age, gender and ZIP code."
+    ],
+    [
+     "TikTok",
+     "has a housing, employment and credit policy for advertisers based in the US or targeting the US or Canada."
+    ],
+    [
+     "FTC",
+     "took action against GoodRx and BetterHelp for sharing health data with ad platforms."
+    ]
+   ],
+   "sources": [
+    "Google: restricted targeting",
+    "Meta: Discriminatory Practices",
+    "Meta: Financial and Insurance Products and Services",
+    "Meta: Health and Wellness",
+    "Meta: choose a Special Ad Category",
+    "TikTok: Housing, Employment and Credit ad policy",
+    "FTC: GoodRx enforcement action, 2023",
+    "FTC: BetterHelp enforcement action, 2023"
+   ],
+   "footnote": "Not legal advice. The five extra steps are AugMind's choice. A lawyer has not reviewed them. The FTC actions concern health data only."
+  },
+  {
+   "view": "Evidence",
+   "type": "evidence",
+   "title": "Where the evidence is strong, and where it is not",
+   "tiles": [
+    {
+     "number": "48",
+     "text": "sources opened on the live page on October 6, 2026"
+    },
+    {
+     "number": "3",
+     "text": "Meta pages from the report captured October 5, 2026"
+    },
+    {
+     "number": "0",
+     "text": "cited pages still unread"
+    },
+    {
+     "number": "2",
+     "text": "full best-practice guides not yet searched: Google's and TikTok's",
+     "tone": "open"
+    }
+   ],
+   "panels": [
+    {
+     "label": "STRONG",
+     "style": "white",
+     "items": [
+      "What to check in an Audit: the platforms publish their own diagnostics and scores.",
+      "Tracking and data connections: Meta, Google and TikTok document them.",
+      "Claims and endorsements: the FTC states the rules.",
+      "Tests: Google documents experiments, and Meta documents lift tests.",
+      "Skills: Meta's entry-level exam covers campaign setup, the Pixel and Conversions API, privacy and policy, and reporting."
+     ],
+     "note": "Meta on skills and partners:",
+     "sources": [
+      "Meta: Digital Marketing Associate exam outline",
+      "Meta: Business Partners program"
+     ]
+    },
+    {
+     "label": "AUGMIND'S OWN",
+     "style": "gray",
+     "items": [
+      "The three phases, the order of work, and every deliverable and approval test.",
+      "The sales match (task 1.1.8).",
+      "The roles and who is accountable.",
+      "The weekly, monthly and quarterly rhythm.",
+      "The five data checks and their numbers."
+     ]
+    },
+    {
+     "label": "OPEN",
+     "style": "open",
+     "items": [
+      "Meta's detailed best practices sit inside Ads Manager, in the opportunity score. Reading them needs a client's ad account.",
+      "Google's and TikTok's full best-practice guides have not been searched. The creative and set-up pages cited cover only part of this.",
+      "The experts have not confirmed the roles, the sales match, the five data checks, Roadmap tasks 1.2.7 to 1.2.10 or the section mapping.",
+      "No lawyer has reviewed the rules or the regulated-industry steps."
+     ]
+    }
+   ],
+   "evidence": "A second independent read checked every tag and cited statement against the recorded source wording on October 6, 2026. Its ten corrections are in this version. Pages were read as page text, through a fetch tool or the Chrome browser. Re-open a page before quoting it to a client."
+  },
+  {
+   "view": "Sources",
+   "type": "sources",
+   "title": "Sources cited in this deck",
+   "evidence": "Each source name is a link. Status says how the page was last read. \"Meta report\" means the text comes from the Meta compliance reference captured October 5, 2026. AugMind's own files are not listed here."
+  },
+  {
+   "view": "Decisions",
+   "type": "decisions",
+   "title": "Two decisions gate the first sale; three open items gate the first Audit",
+   "decisions_label": "DECISIONS",
+   "gating": {
+    "callout": "DECISIONS 1 AND 2 GATE THE FIRST SALE. DECIDE THEM FIRST. THE WHOLE OFFERING DEPENDS ON BOTH.",
+    "items": [
+     "Yes (Tait, Oct 7). AugMind manages clients' media in their ad accounts, in Implement and Run, with a marketing specialist (media buyer) provided as a service through AugMind. Partners confirm. The website says \"We do not buy or manage media\"; that line changes.",
+     "Can the outside reviewer review a client whose campaigns AugMind runs? Yes (Tait, Oct 7), if a partner not on the engagement reviews. Replaces the old rule (never). Partners confirm."
+    ]
+   },
+   "decisions": [
+    "Tait's call, Oct 7: one offering with three phases, each under its own signed agreement.",
+    "The names: Digital Marketing Performance & Revenue; Discover, Implement, Run, with the Audit as step 1.1. Tait's call, Oct 7: keep. The tagline stands if the partners confirm decision 1.",
+    "Gates the first Audit: who fills the two open seats. Data engineer: fractional, on call. Outside reviewer: a partner not on the engagement."
+   ],
+   "right": [
+    {
+     "label": "FOR A LAWYER",
+     "style": "gray",
+     "bullets": [
+      "Gates the first Audit: may offshore subcontractors access client accounts and lead data, and on what terms?",
+      "What must be true before taking a client in a regulated industry?",
+      "What liability does AugMind carry for client claims and spend errors?",
+      "Does AugMind handle client ad spend funds, or do clients pay the platforms directly?",
+      "Gates the first Audit: which contracts must exist before each phase?",
+      "Does the rules review amount to legal advice?"
+     ]
+    },
+    {
+     "label": "NEXT STEPS",
+     "style": "lavender",
+     "numbered": [
+      "Search Google's and TikTok's own best-practice guides.",
+      "Experts confirm the roles, the sales match, the five data checks, tasks 1.2.7 to 1.2.10 and the section mapping, and settle the two open items on slide {slide:step1.2}.",
+      "Run the offering on AugMind's own marketing as the first worked case.",
+      "Put a one-page version in front of ten business owners."
+     ]
+    }
+   ],
+   "evidence": "Partners only. Contractors get the contractor copy, which leaves out this slide, the expert names and the partner meeting references. Names and meeting references to remove: cover pointer, slides {slide:roles}, {slide:phase1:inputs}, {slide:step1.2}, {slide:phase2:overview}, {slide:phase2:inputs}, {slide:phase3:overview}, {slide:task3.1.5}."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Google: Web Vitals",
+   "url": "https://web.dev/articles/vitals",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Google: PageSpeed Insights",
+   "url": "https://developers.google.com/speed/docs/insights/v5/about",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Google Search Console: page indexing",
+   "url": "https://support.google.com/webmasters/answer/7440203?hl=en",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Google Search Console: manual actions",
+   "url": "https://support.google.com/webmasters/answer/9044175?hl=en",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Google: Tag Assistant",
+   "url": "https://support.google.com/tagassistant/answer/10039345?hl=en",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Google: consent mode",
+   "url": "https://developers.google.com/tag-platform/security/guides/consent",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Google: Customer Match policy",
+   "url": "https://support.google.com/adspolicy/answer/6299717?hl=en",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Google Ads: offline conversion imports",
+   "url": "https://support.google.com/google-ads/answer/2998031",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Google Ads: optimization score",
+   "url": "https://support.google.com/google-ads/answer/9061546",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Google Ads: set up your ads for success",
+   "url": "https://support.google.com/google-ads/answer/6167115",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Google Analytics: attribution",
+   "url": "https://support.google.com/analytics/answer/10596866?hl=en",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Google: transparency requirements",
+   "url": "https://support.google.com/adspolicy/answer/16489093",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Google: third-party policy violations",
+   "url": "https://support.google.com/adspolicy/answer/16489095",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Google Ads: learning period",
+   "url": "https://support.google.com/google-ads/answer/13020501",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Google Ads: experiments",
+   "url": "https://support.google.com/google-ads/answer/10682377?hl=en",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Google Ads: Conversion Lift",
+   "url": "https://support.google.com/google-ads/answer/12003020?hl=en",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Google: restricted targeting",
+   "url": "https://support.google.com/adspolicy/answer/143465",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Meta: Ads Data Advisor",
+   "url": "https://developers.facebook.com/documentation/meta-pixel/support/meta-ads-data-advisor",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Meta: Dataset Quality API",
+   "url": "https://developers.facebook.com/docs/marketing-api/conversions-api/dataset-quality-api",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Meta: duplicate Pixel and Conversions API events",
+   "url": "https://developers.facebook.com/docs/marketing-api/conversions-api/deduplicate-pixel-and-server-events",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Meta: customer information parameters",
+   "url": "https://developers.facebook.com/docs/marketing-api/conversions-api/parameters/customer-information-parameters",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Meta: Business Tools Terms",
+   "url": "https://www.facebook.com/legal/terms/businesstools",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Meta: Discriminatory Practices",
+   "url": "https://transparency.meta.com/policies/ad-standards/unacceptable-content/discriminatory-practices/",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Meta: Financial and Insurance Products and Services",
+   "url": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/financial-services/",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Meta: Health and Wellness",
+   "url": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/health-wellness/",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Meta: opportunity score",
+   "url": "https://www.facebook.com/business/help/804913634782260",
+   "status": "Meta report, Oct 5"
+  },
+  {
+   "name": "Meta: learning phase",
+   "url": "https://www.facebook.com/business/help/112167992830700",
+   "status": "Meta report, Oct 5"
+  },
+  {
+   "name": "Meta: Conversion Lift",
+   "url": "https://www.facebook.com/business/help/221353413010930",
+   "status": "Meta report, Oct 5"
+  },
+  {
+   "name": "Meta: choose a Special Ad Category",
+   "url": "https://www.facebook.com/business/help/298000447747885",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Meta: performance marketing best practices",
+   "url": "https://www.facebook.com/business/ads/performance-marketing-best-practices",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Meta: Digital Marketing Associate exam outline",
+   "url": "https://www.facebook.com/business/learn/certification/exams/100-101-exam",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Meta: Business Partners program",
+   "url": "https://www.facebook.com/business/marketing-partners",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "TikTok: Housing, Employment and Credit ad policy",
+   "url": "https://ads.tiktok.com/help/article/housing-employment-credit-hec-ad-policy",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "TikTok: Events Manager diagnostics",
+   "url": "https://ads.tiktok.com/help/article/tiktok-events-manager-monitor-and-diagnose",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "TikTok: Events API",
+   "url": "https://ads.tiktok.com/help/article/events-api",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "TikTok: Account Optimization Score",
+   "url": "https://ads.tiktok.com/help/article/about-account-optimization-score",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "TikTok: learning phase",
+   "url": "https://ads.tiktok.com/help/article/learning-phase",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "TikTok: creative best practices",
+   "url": "https://ads.tiktok.com/help/article/creative-best-practices",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "TikTok: attribution window",
+   "url": "https://ads.tiktok.com/help/article/about-the-attribution-window-on-tiktok-ads-manager",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "TikTok: ad policy change log, 2026",
+   "url": "https://ads.tiktok.com/resources/help/article/tiktok-ad-policy-change-log-2026",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "FTC: Advertising FAQs for small business",
+   "url": "https://www.ftc.gov/business-guidance/resources/advertising-faqs-guide-small-business",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "FTC: Endorsement Guides",
+   "url": "https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "FTC: Disclosures 101",
+   "url": "https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "FTC: CAN-SPAM compliance guide",
+   "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "FTC: GoodRx enforcement action, 2023",
+   "url": "https://www.ftc.gov/news-events/news/press-releases/2023/02/ftc-enforcement-action-bar-goodrx-sharing-consumers-sensitive-health-info-advertising",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "FTC: BetterHelp enforcement action, 2023",
+   "url": "https://www.ftc.gov/news-events/news/press-releases/2023/03/ftc-ban-betterhelp-revealing-consumers-data-including-sensitive-mental-health-information-facebook",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "FTC: deceptive AI claims, September 2024",
+   "url": "https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-announces-crackdown-deceptive-ai-claims-schemes",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Small Business Administration: marketing",
+   "url": "https://www.sba.gov/business-guide/manage-your-business/marketing-sales",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Media Rating Council: outcomes standards",
+   "url": "https://mediaratingcouncil.org/sites/default/files/Standards/MRC%20Outcomes%20and%20Data%20Quality%20Standards%20%28Final%29.pdf",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "American Marketing Association: strategy",
+   "url": "https://www.ama.org/marketing-news/how-to-develop-an-effective-marketing-strategy/",
+   "status": "Opened live, Oct 6"
+  },
+  {
+   "name": "Pew Research: social media use, 2025",
+   "url": "https://www.pewresearch.org/internet/2025/11/20/americans-social-media-use-2025/",
+   "status": "Opened live, Oct 6"
+  }
+ ]
+}
