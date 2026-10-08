@@ -108,6 +108,16 @@ If no separate agent can be started, reread the pages yourself and say on the ev
 - Beside the deck, in a subfolder named "Build files - <offering name> (working parts, not for reading)", save the spec and the source notes. A later session needs them to revise the deck.
 - Report in a few lines: the file and its slide count; how many sources were opened; how many items are open, and the few that most need a partner decision; anything that was left out, and why. Do the work that is in scope instead of offering it.
 
+## Other skills
+
+This skill is complete without any other. Use these when they are listed in the session:
+
+- **deep-research**: for the first scan of the field before the outline (what the work involves, and which platform makers and official bodies publish rules for it). Its report is a lead. Every page a card cites is still opened under section 4.
+- **proud-work-bar** (any version): at the outline, in section 3.
+- **red-team** and **completion-gate** (any version): for the independent read in section 7 and before delivery. If they are not listed, sections 6 and 7 are the check.
+
+Formatting needs no other skill. Do not use a presentation or design skill; the renderer draws every slide. Website copy comes later, through offering-site-copy, and is not part of this skill.
+
 ## Changing a deck later
 
 Change the spec and render again. Never edit the PowerPoint from code. If Tait has edited the deck by hand, read his version first and carry his changes into the spec.
