@@ -44,6 +44,13 @@ Take from the Digital Marketing deck its structure only. Its content decisions (
 
 ## 3. Outline, then stop once
 
+When the input is thin (a website, an idea, short notes), get two reads before writing the outline. Each runs once, as a separate agent, at the same time:
+
+- **Product challenge**: who the buyer is, what problem they have today, and the riskiest assumptions in the offering.
+- **Market scan**: how others package and sell this kind of work, read from their own pages.
+
+Use both to shape the outline. What comes from them is a proposal. Competitor names and facts stay out of the deck.
+
 Write the outline and send it to Tait. Ask one pop-up question: build from it, or change it. This is the only stop. After the answer, run to the end without asking anything else; where a choice comes up, make it and mark it open.
 
 The outline holds: the offering name and tagline; the three phases, with the name the offering uses for each and what each settles; the steps in each phase with every task name; the deliverables and who approves them in each phase; which optional cross-phase slides are included and why; and how many items will be marked as Claude's proposals.
@@ -76,7 +83,13 @@ For every task card and every rule, look for an official source: the own documen
 
 Write one JSON file that follows `SPEC.md`. Start from the example's shape.
 
-- Plain words, American English, short sentences. Say what a thing is; do not sell it.
+- Plain words, American English, short sentences. Say what a thing is; do not sell it. A newcomer must understand every line with nothing explained.
+- The levels are offering, phase, step and task. "The AugMind model" is Advise, Implement, Operate; do not call those three phases.
+- Row labels are Inputs, Activities, Deliverables, Approval and Roles.
+- Name the parties: the client, AugMind, a job title, a specialist contractor. Never "we" or "you".
+- Spell out an acronym at first use. Write dates month-day-year. No serial comma.
+- Label an expert's view as one person's view.
+- Where housing, employment, credit or health rules apply, the offering works inside them, never around them.
 - A headline states a finding or a count ("Step 1.1 Audit: nine tasks, eight tied to an outside source"). Count before you write a number.
 - Never type a slide number. Use `{slide:REF}`.
 - Keep the example's standing lines (eyebrow, tab labels, legend, footer pieces). Change the name, version (start at "Draft v0.1"), date and status.
@@ -91,15 +104,19 @@ Write one JSON file that follows `SPEC.md`. Start from the example's shape.
 2. Fix every line under MUST FIX by shortening the text in the spec. Run again until the exit code is 0. Never change `render.py` or a font size to make one deck fit.
 3. `python3 tools/preview.py "<deck name>.pptx" preview/`, then look at every contact sheet, and open any slide that looks crowded. Look for text outside its box, text over text, a nearly empty slide, and a `platform` or `official` card with no source.
 
-## 7. One independent read
+## 7. Three reads, once each
 
-Partners rely on this deck, so someone who did not write it checks it once.
+Partners rely on this deck, so people who did not write it check it. Start three separate agents at the same time. None has seen the drafting. Give each the spec and the source notes.
 
-Start a separate agent that has not seen the drafting. Give it the spec and the source notes. It reopens each cited page and reports, for every `platform` and `official` card: backed, partly backed, not backed, or page did not open. It also checks that every `open` item is on the decisions slide and that the evidence counts match the spec.
+| Read | What it checks | What to do with the findings |
+|---|---|---|
+| **Compliance** | What the offering cannot say or do as written, and which clients or cases need extra steps. | Fix the wording. Put special cases on the `panel` slide and questions for a lawyer on the decisions slide. This is not legal advice; say so. |
+| **Wording** | Claims with no support, promises of results, mixed terms, and the wording rules in section 5. | Fix the wording. |
+| **Sources** | It reopens each cited page and reports, for every `platform` and `official` card: backed, partly backed, not backed, or page did not open. It also checks that every `open` item is on the decisions slide and that the evidence counts match the spec. | Reword the card to what the page says, or change the tag to `own` or `open`. |
 
-Fix what it finds: reword the card to what the page says, or change the tag to `own` or `open`. Render again. Do one round, then stop; a second round mostly finds faults made by the first round's fixes.
+Apply the findings in that order and render again. Do one round, then stop; a second round mostly finds faults made by the first round's fixes.
 
-If no separate agent can be started, reread the pages yourself and say on the evidence slide that the check was not independent.
+If no separate agent can be started, do the three reads yourself and say on the evidence slide that the check was not independent.
 
 ## 8. Deliver
 
@@ -110,13 +127,21 @@ If no separate agent can be started, reread the pages yourself and say on the ev
 
 ## Other skills
 
-This skill is complete without any other. Use these when they are listed in the session:
+Use these when they are listed in the session. The product, market, compliance and wording reads are the ones the Digital Marketing deck went through. Each read runs once.
 
-- **deep-research**: for the first scan of the field before the outline (what the work involves, and which platform makers and official bodies publish rules for it). Its report is a lead. Every page a card cites is still opened under section 4.
-- **proud-work-bar** (any version): at the outline, in section 3.
-- **red-team** and **completion-gate** (any version): for the independent read in section 7 and before delivery. If they are not listed, sections 6 and 7 are the check.
+| Step | Skill | Used for |
+|---|---|---|
+| 2 | deep-research | The first scan of the field: what the work involves, and which makers and official bodies publish rules for it. Its report is a lead; section 4 still applies to every page a card cites. |
+| 3 | product-management:product-brainstorming | The product challenge. |
+| 3 | marketing:competitive-brief | The market scan. |
+| 3 | proud-work-bar (any version) | The test of the outline. |
+| 7 | legal:compliance-check | The compliance read. |
+| 7 | marketing:brand-review | The wording read, against section 5. |
+| 7 | red-team and completion-gate (any version) | The sources read and the last check before delivery. |
 
-Formatting needs no other skill. Do not use a presentation or design skill; the renderer draws every slide. Website copy comes later, through offering-site-copy, and is not part of this skill.
+If a skill is not listed, the agent does that read from the question in this file.
+
+Do not run a design review or use a presentation or design skill. The renderer draws every slide, and the look is locked. It does not rely on color alone: every tag, open seat and status is also written in words. Website copy comes later, through offering-site-copy, and is not part of this skill.
 
 ## Changing a deck later
 
