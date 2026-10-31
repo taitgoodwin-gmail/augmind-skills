@@ -1,0 +1,38 @@
+{
+  "brand_name": "Example Co",
+  "own_label": "Example Co's choice",
+  "logo": null,
+  "words": {
+    "eyebrow": "EXAMPLE CO DRAFT",
+    "legal_line": "Example Co Confidential",
+    "audience_line": "Internal review copy",
+    "decision_makers": "the owners",
+    "own_meaning": "Example Co's own design. A link on the card is background, not backing.",
+    "own_panel_label": "EXAMPLE CO'S OWN",
+    "provider_group_label": "Example Co",
+    "file_prefix": "ExampleCo_",
+    "model": null
+  },
+  "colors": {
+    "ink": "1B1F2A",
+    "muted": "5A6170",
+    "faint": "8A91A3",
+    "accent": "2F3E5C",
+    "accent_soft": "E8ECF3",
+    "gray": "F2F3F6",
+    "orange_fill": "FFF4E5",
+    "border": "D9DCE4",
+    "page": "FAFAFB",
+    "white": "FFFFFF",
+    "on_accent_soft": "C7D0DF",
+    "cover_bg": "1B1F2A",
+    "cover_eyebrow": "9FB3D1",
+    "cover_sub": "D9DCE4",
+    "cover_faint": "A7ADBD",
+    "link": "0563C1",
+    "green": "0B6E4F",
+    "orange": "B4530A",
+    "magenta": "9D174D"
+  },
+  "colors_note": "A slate palette so a neutral deck does not look like any shipped brand."
+}

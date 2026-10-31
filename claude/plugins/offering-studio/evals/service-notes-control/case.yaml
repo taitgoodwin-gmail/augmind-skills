@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: service-notes-control
+expected_outcome: |
+  decisions.json records frame service and prototype none, citing the sentence each answer rests on.
+tags: [frame]
+context:
+  scaffold_script: fixture.sh

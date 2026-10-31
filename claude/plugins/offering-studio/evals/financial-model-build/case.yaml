@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: financial-model-build
+tags: [package, financials]
+expected_outcome: |
+  financials.json passes check_financials.py, every price line is tagged open or own (open here, since the input records no
+  price decision), and no figure from financials.json appears in any HTML file in the build folder.
+context:
+  scaffold_script: fixture.sh

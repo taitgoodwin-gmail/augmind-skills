@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: brand-leak-rejected
+expected_outcome: |
+  The brand check is run against the levarum pack and fails the spec, naming the former name Signal, the other brand AugMind, and the price.
+tags: [brand]
+context:
+  scaffold_script: fixture.sh

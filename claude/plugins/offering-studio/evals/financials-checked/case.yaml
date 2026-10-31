@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: financials-checked
+tags: [package, financials]
+expected_outcome: |
+  The financial checker is run on financials.json and fails it, naming the out-of-order range on C1,
+  the missing source fields on the platform line C1, and the price line P1 tagged official.
+context:
+  scaffold_script: fixture.sh

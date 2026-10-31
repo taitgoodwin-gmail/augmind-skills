@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: slide-budget-outline
+tags: [deck, slide-budget]
+expected_outcome: |
+  outline.md comes to 22 slides or fewer. All ten input steps appear, each as a step or a bands row, with its
+  sign-off on its phase's approval line, and the outline says where each folded step went. At most one of the two
+  optional slides is kept, with a line on where the other's content went. The run stops with one build-or-change
+  question; no spec or deck is written.
+context:
+  scaffold_script: fixture.sh

@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: package-rules
+expected_outcome: |
+  The package checker is run on the build folder and prints FAIL, reporting one unresolved claim (9.9.9), one claim on an open card (1.1.3) and at least one price.
+tags: [package]
+context:
+  scaffold_script: fixture.sh

@@ -1,0 +1,245 @@
+{
+  "identity": {
+    "offering_name": "Website accessibility review",
+    "eyebrow": "EXAMPLE CO DRAFT",
+    "cover_title": "Service offering: Website accessibility review",
+    "tagline": "Find what blocks real visitors, fix it, and keep it fixed",
+    "status_line": "Offering design: internal review draft  ·  Version 0.1  ·  Example Co Confidential",
+    "disclaimer": "DRAFT FOR REVIEW. Example Co Confidential. Draft v0.1. This is the neutral example that ships with the offering-studio plugin. Example Co is fictional. Claude drafted it to show the spec's shape. Not legal advice. Not a client sales document.",
+    "pointer": "Owners: read slide {slide:decisions} first.",
+    "footer_parts": ["Draft v0.1", "October 21, 2026", "DRAFT FOR REVIEW", "Example Co Confidential", "Internal review copy"]
+  },
+  "model": {"start_label": "START", "all_phases_label": "ALL PHASES"},
+  "legend": [
+    ["Platform rule", "platform", "the platform's own page."],
+    ["Official guidance", "official", "a government, standards or professional body."],
+    ["Example Co's choice", "own", "Example Co's own design; any link is background."],
+    ["Open", "open", "not validated, or not yet decided."]
+  ],
+  "start": {
+    "views": ["The offering", "Roles"],
+    "matrix": {
+      "title": "One offering, three phases, each ending in a decision",
+      "rows": [
+        {"label": "INPUTS", "cells": ["Signed agreement. The site URL and the pages that matter most.", "Accepted findings. Access to the site's code or content system.", "Fixed site. A monthly check schedule."]},
+        {"label": "ACTIVITIES", "cells": ["Test key pages against the standard. Rank what blocks visitors.", "Fix the ranked items. Re-test each one.", "Check new pages monthly. Report what changed."]},
+        {"label": "DELIVERABLES", "cells": ["Findings report with evidence per item.", "Fix log with before and after.", "Monthly change note."]},
+        {"label": "APPROVAL", "cells": ["Client accepts the findings or names gaps.", "Client accepts each fix as re-tested.", "Client renews or stops at each quarter."]},
+        {"label": "ROLES", "cells": ["Reviewer. Client site owner.", "Developer. Reviewer.", "Reviewer. Client site owner."]}
+      ],
+      "note": ["Every finding carries evidence.", "A finding without a page, a check and a result is not reported."],
+      "evidence": "Evidence: Example Co's choice. The phases follow the common review, fix, monitor pattern; nothing here is validated."
+    },
+    "roles": {
+      "title": "Two Example Co roles and one client role",
+      "chart_heading": "WHO DECIDES WHAT (PROPOSED)",
+      "chart": {
+        "lead": {"name": "Reviewer", "sub": "Owns findings and sign-off"},
+        "team": [{"name": "Developer"}, {"name": "Content editor", "open": true}],
+        "outside": {"name": "Client site owner", "open": false, "text": "Accepts findings and fixes. Gives access to the site."}
+      },
+      "table": {
+        "header": "Role and what it does",
+        "rows": [
+          {"name": "Reviewer", "does": "Tests pages, ranks findings, verifies fixes", "open": false, "letters": ["A", "V", "A"]},
+          {"name": "Developer", "does": "Applies code fixes and re-tests", "open": false, "letters": ["—", "R", "C"]},
+          {"name": "Content editor", "does": "Fixes text and image descriptions; seat open", "open": true, "letters": ["—", "R", "—"]},
+          {"name": "Client site owner", "does": "Accepts findings and fixes", "open": false, "letters": ["S", "S", "S"]}
+        ]
+      },
+      "legend": [["A", "accountable"], ["R", "does the work"], ["V", "verifies before release"], ["S", "signs off"], ["C", "consulted"], ["—", "not involved"]],
+      "evidence": "Evidence: Example Co's choice, proposed."
+    }
+  },
+  "phases": [
+    {
+      "number": 1,
+      "name": "Review",
+      "overview": {
+        "title": "Review: what blocks visitors today",
+        "purpose": "Test the pages that matter most against the published standard and rank what blocks real visitors.",
+        "columns": [
+          {"label": "INPUTS", "subtitle": "What must be in place", "numbered": false, "items": ["Signed agreement", "Site URL", "The ten pages that matter most"], "highlight": false},
+          {"label": "ACTIVITIES", "subtitle": "In order", "numbered": true, "items": ["Test each page", "Record evidence per finding", "Rank by who is blocked"], "highlight": false},
+          {"label": "DELIVERABLES", "subtitle": "What the client gets", "numbered": false, "items": ["Findings report", "Ranked fix list"], "highlight": false},
+          {"label": "APPROVAL", "subtitle": "What is signed", "numbered": false, "items": ["Client accepts the findings or names gaps"], "highlight": true}
+        ],
+        "notes": [["The standard is public.", "Findings cite the success criterion they test."]]
+      },
+      "inputs_roles": {
+        "title": "Review inputs and roles",
+        "inputs_heading": "INPUTS: WHAT IS NEEDED, AND WHO PROVIDES IT",
+        "roles_heading": "ROLES IN THIS PHASE",
+        "inputs": [
+          {"name": "Signed agreement", "from": "Client site owner and reviewer", "text": "The pages, the standard level, the deliverables and what is excluded."},
+          {"name": "Site URL and key pages", "from": "Client site owner", "text": "The ten pages most visitors use, in order."}
+        ],
+        "role_groups": [
+          {"label": "Example Co", "client": false, "roles": [{"name": "Reviewer", "open": false, "does": "Tests pages and writes findings."}]},
+          {"label": "Client", "client": true, "roles": [{"name": "Site owner", "open": false, "does": "Names the pages. Accepts findings."}]}
+        ],
+        "evidence": "Evidence: Example Co's choice."
+      },
+      "steps": [
+        {
+          "number": "1.1",
+          "name": "Test",
+          "title": "Step 1.1 Test: three tasks, one tied to an official source",
+          "tasks": [
+            {"number": "1.1.1", "name": "Test against WCAG", "text": "Test each key page against the Web Content Accessibility Guidelines success criteria at the agreed level.", "tag": "official", "sources": ["W3C: WCAG 2.2"], "note": "W3C publishes the criteria."},
+            {"number": "1.1.2", "name": "Evidence per finding", "text": "Record the page, the criterion, the check and the result for every finding.", "tag": "own", "sources": [], "note": "Example Co's design."},
+            {"number": "1.1.3", "name": "Rank by impact", "text": "Rank findings by how many visitors each one blocks. The ranking method is not yet decided.", "tag": "open", "sources": [], "note": "Proposed by Claude. Owners to confirm."}
+          ]
+        }
+      ],
+      "deliverables": {
+        "title": "Review deliverables: what the client gets, and what is confirmed",
+        "lists": [{"name": "Findings report", "subtitle": "Four sections", "items": ["Pages tested", "Findings with evidence", "Ranked fix list", "What was not tested"]}],
+        "texts": [{"name": "Ranked fix list", "text": "Each item names the page, the criterion, the fix and who does it."}],
+        "approval_heading": "APPROVAL: WHAT MUST BE TRUE, AND WHO CONFIRMS IT",
+        "approval": [
+          {"text": "Every finding has a page, a criterion, a check and a result", "confirms": "Reviewer", "highlight": false},
+          {"text": "The client accepts the findings or names gaps in writing", "confirms": "Client site owner", "highlight": true}
+        ],
+        "evidence": "Evidence: Example Co's choice."
+      }
+    },
+    {
+      "number": 2,
+      "name": "Fix",
+      "overview": {
+        "title": "Fix: clear the ranked list, one re-test at a time",
+        "purpose": "Apply the fixes in rank order and re-test each one before it is marked done.",
+        "columns": [
+          {"label": "INPUTS", "subtitle": "What must be in place", "numbered": false, "items": ["Accepted findings", "Access to code or content system"], "highlight": false},
+          {"label": "ACTIVITIES", "subtitle": "In order", "numbered": true, "items": ["Fix in rank order", "Re-test each fix", "Log before and after"], "highlight": false},
+          {"label": "DELIVERABLES", "subtitle": "What the client gets", "numbered": false, "items": ["Fix log"], "highlight": false},
+          {"label": "APPROVAL", "subtitle": "What is signed", "numbered": false, "items": ["Client accepts each fix as re-tested"], "highlight": true}
+        ],
+        "notes": []
+      },
+      "inputs_roles": {
+        "title": "Fix inputs and roles",
+        "inputs_heading": "INPUTS: WHAT IS NEEDED, AND WHO PROVIDES IT",
+        "roles_heading": "ROLES IN THIS PHASE",
+        "inputs": [
+          {"name": "Accepted findings", "from": "Review phase", "text": "The ranked list the client accepted."},
+          {"name": "Access", "from": "Client site owner", "text": "Code repository or content system access for the developer and editor."}
+        ],
+        "role_groups": [
+          {"label": "Example Co", "client": false, "roles": [{"name": "Developer", "open": false, "does": "Applies code fixes."}, {"name": "Content editor", "open": true, "does": "Fixes text and image descriptions."}]},
+          {"label": "Client", "client": true, "roles": [{"name": "Site owner", "open": false, "does": "Accepts each fix."}]}
+        ],
+        "evidence": "Evidence: Example Co's choice."
+      },
+      "steps": [
+        {
+          "number": "2.1",
+          "name": "Apply",
+          "title": "Step 2.1 Apply: two tasks, both Example Co's own design",
+          "tasks": [
+            {"number": "2.1.1", "name": "Fix in order", "text": "Work the ranked list from the top. A fix is done only when the reviewer re-tests it on the live page.", "tag": "own", "sources": [], "note": "Example Co's design."},
+            {"number": "2.1.2", "name": "Before and after", "text": "Log the failing check and the passing check for every fix, with dates.", "tag": "own", "sources": [], "note": "Example Co's design."}
+          ]
+        }
+      ],
+      "deliverables": {
+        "title": "Fix deliverables: the fix log, and what is confirmed",
+        "lists": [{"name": "Fix log", "subtitle": "Three sections", "items": ["Fixes done, with before and after", "Fixes deferred, with reason", "Pages re-tested"]}],
+        "texts": [],
+        "approval_heading": "APPROVAL: WHAT MUST BE TRUE, AND WHO CONFIRMS IT",
+        "approval": [
+          {"text": "Every fix marked done was re-tested on the live page", "confirms": "Reviewer", "highlight": false},
+          {"text": "The client accepts the fix log", "confirms": "Client site owner", "highlight": true}
+        ],
+        "evidence": "Evidence: Example Co's choice."
+      }
+    },
+    {
+      "number": 3,
+      "name": "Monitor",
+      "overview": {
+        "title": "Monitor: keep new pages from undoing the work",
+        "purpose": "Check new and changed pages each month and report what changed.",
+        "columns": [
+          {"label": "INPUTS", "subtitle": "What must be in place", "numbered": false, "items": ["Fixed site", "Monthly schedule"], "highlight": false},
+          {"label": "ACTIVITIES", "subtitle": "In order", "numbered": true, "items": ["Find new and changed pages", "Test them", "Report changes"], "highlight": false},
+          {"label": "DELIVERABLES", "subtitle": "What the client gets", "numbered": false, "items": ["Monthly change note"], "highlight": false},
+          {"label": "APPROVAL", "subtitle": "What is signed", "numbered": false, "items": ["Client renews or stops each quarter"], "highlight": true}
+        ],
+        "notes": []
+      },
+      "inputs_roles": {
+        "title": "Monitor inputs and roles",
+        "inputs_heading": "INPUTS: WHAT IS NEEDED, AND WHO PROVIDES IT",
+        "roles_heading": "ROLES IN THIS PHASE",
+        "inputs": [
+          {"name": "Fixed site", "from": "Fix phase", "text": "The site as accepted at the end of Fix."},
+          {"name": "Monthly schedule", "from": "Reviewer", "text": "The day each month the check runs."}
+        ],
+        "role_groups": [
+          {"label": "Example Co", "client": false, "roles": [{"name": "Reviewer", "open": false, "does": "Runs the monthly check."}]},
+          {"label": "Client", "client": true, "roles": [{"name": "Site owner", "open": false, "does": "Reads the change note."}]}
+        ],
+        "evidence": "Evidence: Example Co's choice."
+      },
+      "steps": [
+        {
+          "number": "3.1",
+          "name": "Check",
+          "title": "Step 3.1 Check: two tasks, one tied to an official source",
+          "tasks": [
+            {"number": "3.1.1", "name": "Test new pages", "text": "Test every page added or changed since the last check against the same criteria.", "tag": "official", "sources": ["W3C: WCAG 2.2"], "note": "Same criteria as step 1.1.1."},
+            {"number": "3.1.2", "name": "Change note", "text": "Report what passed, what failed and what was fixed, with evidence per item.", "tag": "own", "sources": [], "note": "Example Co's design."}
+          ]
+        }
+      ],
+      "deliverables": {
+        "title": "Monitor deliverables: the change note, and what is confirmed",
+        "lists": [{"name": "Monthly change note", "subtitle": "Three sections", "items": ["Pages checked", "New findings with evidence", "Fixes since last month"]}],
+        "texts": [],
+        "approval_heading": "APPROVAL: WHAT MUST BE TRUE, AND WHO CONFIRMS IT",
+        "approval": [
+          {"text": "Every new page was tested", "confirms": "Reviewer", "highlight": false},
+          {"text": "The client renews or stops at the quarter", "confirms": "Client site owner", "highlight": true}
+        ],
+        "evidence": "Evidence: Example Co's choice."
+      }
+    }
+  ],
+  "all_phases": [
+    {
+      "view": "Evidence",
+      "type": "evidence",
+      "title": "Where the evidence is strong, and where it is not",
+      "tiles": [
+        {"number": "1", "text": "source opened live"},
+        {"number": "2", "text": "task cards tied to an official source"},
+        {"number": "4", "text": "task cards that are Example Co's own design"},
+        {"number": "1", "text": "task card open: proposed, not decided", "tone": "open"}
+      ],
+      "panels": [
+        {"label": "STRONG", "style": "white", "items": ["The criteria: W3C publishes them."], "note": "W3C:", "sources": ["W3C: WCAG 2.2"]},
+        {"label": "EXAMPLE CO'S OWN", "style": "gray", "items": ["The three phases.", "Evidence per finding.", "Re-test before done."]},
+        {"label": "OPEN", "style": "open", "items": ["The ranking method (task 1.1.3)."]}
+      ],
+      "evidence": "This is the plugin's neutral example. Its one source was opened on October 21, 2026. Counts come from evidence_counts.py."
+    },
+    {"view": "Sources", "type": "sources", "title": "Sources cited in this deck", "evidence": "Each source name is a link. Status says how the page was last read."},
+    {
+      "view": "Decisions",
+      "type": "decisions",
+      "title": "One open item gates the first review",
+      "decisions_label": "DECISIONS",
+      "decisions": ["Ranking method for findings (task 1.1.3). Owners to confirm.", "Who fills the content editor seat."],
+      "right": [
+        {"label": "FOR A LAWYER", "style": "gray", "bullets": ["Does a findings report amount to a compliance opinion?"]},
+        {"label": "NEXT STEPS", "style": "lavender", "numbered": ["Decide the ranking method.", "Run the offering on Example Co's own site first."]}
+      ],
+      "evidence": "Owners only."
+    }
+  ],
+  "sources": [
+    {"name": "W3C: WCAG 2.2", "url": "https://www.w3.org/TR/WCAG22/", "status": "Opened live, Oct 21"}
+  ]
+}
