@@ -1,0 +1,11 @@
+{
+  "name": "offering-studio",
+  "displayName": "Offering Studio",
+  "version": "0.2.1",
+  "description": "Turns any input (a website, an existing offering, notes, files, an idea) into a launch package for one brand: an evidence-tagged offering deck in a locked look, and, when the offering needs them, a technical architecture, a home page, a clickable prototype and an internal financial model. Brand packs keep each company's look and words separate.",
+  "author": {
+    "name": "Tait Goodwin",
+    "email": "tait@augmind.ai"
+  },
+  "license": "Proprietary"
+}

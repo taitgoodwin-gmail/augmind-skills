@@ -1,0 +1,15 @@
+{
+  "name": "augmind-skills",
+  "description": "Tait Goodwin's Claude plugins for AugMind and Levarum work.",
+  "owner": {
+    "name": "Tait Goodwin",
+    "email": "tait@augmind.ai"
+  },
+  "plugins": [
+    {
+      "name": "offering-studio",
+      "source": "./claude/plugins/offering-studio",
+      "description": "Offering decks, architecture, home page, prototype and internal financial model for one brand, from any input."
+    }
+  ]
+}

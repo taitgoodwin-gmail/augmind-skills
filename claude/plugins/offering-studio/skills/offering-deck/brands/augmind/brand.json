@@ -1,0 +1,31 @@
+{
+  "brand_name": "AugMind",
+  "own_label": "AugMind's choice",
+  "logo": "augmind-logo-cover.png",
+  "font": {"name": "Inter", "regular": "Inter-Regular.otf", "bold": "Inter-Bold.otf"},
+  "colors": {
+    "ink": "14161F", "muted": "5B6072", "faint": "9AA0B5",
+    "accent": "2322EF", "accent_soft": "EEEEFF", "gray": "F1F2F7", "orange_fill": "FFF4E5",
+    "border": "D8DAE5", "page": "FAFAFC", "white": "FFFFFF", "on_accent_soft": "DCDDFF",
+    "cover_bg": "14161F", "cover_eyebrow": "BFC2FF", "cover_sub": "D8DAE5", "cover_faint": "A9ADC4",
+    "link": "0563C1", "green": "0B6E4F", "orange": "B4530A", "magenta": "9D174D"
+  },
+  "words": {
+    "eyebrow": "AUGMIND DRAFT DRAFT DRAFT",
+    "legal_line": "AugMind Confidential 2026",
+    "audience_line": "Partner and expert review copy",
+    "decision_makers": "the partners",
+    "own_meaning": "AugMind's own design. A link on the card is background, not backing.",
+    "own_panel_label": "AUGMIND'S OWN",
+    "provider_group_label": "AugMind",
+    "file_prefix": "AugMind_",
+    "model": {
+      "label": "THE AUGMIND MODEL",
+      "stages": [
+        {"name": "ADVISE", "text": "Find out what is true and decide what to do."},
+        {"name": "IMPLEMENT", "text": "Build and set up what was decided."},
+        {"name": "OPERATE", "text": "Run it, measure it and improve it."}
+      ]
+    }
+  }
+}

@@ -2,6 +2,14 @@
 
 AugMind skill packages and installation guides, organized separately for Claude and ChatGPT/Codex.
 
+## Claude plugins
+
+This repository is a Claude plugin marketplace (`.claude-plugin/marketplace.json`). Plugins live in `claude/plugins/`.
+
+- **Offering Studio** (`claude/plugins/offering-studio`): offering decks, architecture, home page, prototype and internal financial model for one brand.
+
+Claude's organization sync installs them from here. To release a change: work on a branch, bump `version` in the plugin's `.claude-plugin/plugin.json`, open a pull request, and merge it into `main`. Only a merged pull request with a version bump triggers the sync; direct pushes to `main` do not. This repository must stay private: the plugins are proprietary and carry client brand packs.
+
 ## Reusable delivery baseline
 
 The cross-project execution method lives at `chatgpt-codex/augmind-delivery-baseline/SKILL.md`.

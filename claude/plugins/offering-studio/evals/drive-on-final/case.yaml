@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: drive-on-final
+tags: [deck, drive]
+expected_outcome: |
+  drive-rule.md says drafts are never uploaded, that only the requester saying the deck is final triggers a copy of the deck
+  and its build files to a Drive folder the requester names, and that sharing is never changed; each answer quotes the skill.
+  No Drive tool is called.

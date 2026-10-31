@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: product-notes-levarum
+expected_outcome: |
+  decisions.json records frame product with prototype full and architecture full, cites the sentence each rule answer rests on, and names no other brand.
+tags: [frame, brand]
+context:
+  scaffold_script: fixture.sh

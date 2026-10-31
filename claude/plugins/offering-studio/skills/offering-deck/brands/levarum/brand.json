@@ -1,0 +1,28 @@
+{
+  "brand_name": "Levarum",
+  "company": "Levarum",
+  "own_label": "Levarum's design",
+  "logo": "levarum-lockup-inverse.png",
+  "logo_tile": null,
+  "font": {"name": "Inter", "regular": "Inter-Regular.otf", "bold": "Inter-Bold.otf"},
+  "colors": {
+    "ink": "040404", "muted": "5C5F66", "faint": "6B6E75",
+    "accent": "1F6B96", "accent_soft": "CFE4F1", "gray": "F3F4F6", "orange_fill": "FCEBE3",
+    "border": "DADBDD", "page": "FFFFFF", "white": "FFFFFF", "on_accent_soft": "CFE4F1",
+    "cover_bg": "232426", "cover_eyebrow": "6FB0DC", "cover_sub": "D4D5D8", "cover_faint": "A3A5A9",
+    "link": "1F6B96", "green": "1F6F66", "orange": "B3401C", "magenta": "4B4BB0"
+  },
+  "colors_source": "Levarum design system (claude.ai artifact AJSUhz3NtHzzjPKgoysNLi, tokens.json, light theme), read October 30, 2026. Taken as is: ink, ink-muted (muted), ink-faint (faint), accent-text (accent and link; white text on it is 5.9:1), tint (accent_soft and on_accent_soft), mist (gray), rule (border), page, inverse (cover_bg), the hero's bright-blue closer #6fb0dc (cover_eyebrow), on-inverse-muted (cover_faint), success (green, official tag), danger (orange, open tag). Derived, not in the system: orange_fill (a pale ember tint for open cards), cover_sub (the dark-theme charcoal #d4d5d8, used as light text on the cover) and magenta (ill-peri #7d7ddc darkened to 4B4BB0 so the platform tag text is 7:1 on white). Logo: levarum-lockup-inverse.svg rendered to PNG at 1144 px wide; the grain filter does not survive the conversion, the lever shape and colors do. Font stays Inter because the renderer measures fit in Inter (Tait, October 30, 2026).",
+  "words": {
+    "eyebrow": "LEVARUM DRAFT",
+    "legal_line": "Levarum Confidential 2026",
+    "audience_line": "Internal review copy",
+    "decision_makers": "Tait",
+    "own_meaning": "Levarum's own design. A link on the card is background, not backing.",
+    "own_panel_label": "LEVARUM'S OWN",
+    "provider_group_label": "Levarum",
+    "file_prefix": "Levarum_",
+    "model": null
+  },
+  "former_names": ["Signal", "MindLeverX"]
+}

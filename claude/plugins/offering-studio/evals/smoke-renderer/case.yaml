@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: smoke-renderer
+tags: [renderer]
+expected_outcome: |
+  The offering-deck skill is loaded, its smoke test runs, and smoke-result.txt holds the
+  renderer's summary lines showing zero MUST FIX items for both renders.
