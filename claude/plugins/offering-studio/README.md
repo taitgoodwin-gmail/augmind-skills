@@ -31,4 +31,4 @@ The plugin sends nothing anywhere until you call a deck final. It reads the file
 
 ## Maintainers
 
-Tait Goodwin owns the plugin and the `augmind` and `levarum` packs. Levarum was formerly Signal and MindLeverX; its pack lists those as former names, and the brand checks fail any Levarum deck or page that still uses them. The look (`render.py`) changes only when Tait asks, and every change runs the v0.9 renderer regression test before and after. That test is not in this repository yet.
+Tait Goodwin owns the plugin and the `augmind` and `levarum` packs. Levarum was formerly Signal and MindLeverX; its pack lists those as former names, and the brand checks fail any Levarum deck or page that still uses them. The look (`render.py`) changes only when Tait asks, and every change runs the v0.9 renderer regression test before and after. The test lives in this repository on the unmerged branch `claude/offering-deck-renderer` (`claude/augmind-offering-deck/tests/run_regression.sh`).
